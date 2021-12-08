@@ -1,0 +1,15 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="21" cy="21" r="20" fill="url(#pattern0)" stroke="url(#paint0_linear_54_764)"/>
+<path d="M20.323 18.15H16.503V20.28H19.483V21.03H16.503V24H15.703V17.4H20.323V18.15ZM24.3066 17.4C24.9799 17.4 25.5199 17.5733 25.9266 17.92C26.3332 18.2667 26.5366 18.7367 26.5366 19.33C26.5366 19.8033 26.4032 20.1933 26.1366 20.5C25.8699 20.8067 25.5099 21.0167 25.0566 21.13L26.9366 24H25.9866L24.1866 21.26H22.6066V24H21.8066V17.4H24.3066ZM24.2966 20.51C25.2299 20.51 25.6966 20.1167 25.6966 19.33C25.6966 18.5433 25.2299 18.15 24.2966 18.15H22.6066V20.51H24.2966Z" fill="black"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_54_764" transform="translate(-0.25) scale(0.00666667)"/>
+</pattern>
+<linearGradient id="paint0_linear_54_764" x1="1" y1="20.9317" x2="41" y2="20.9317" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2835DB"/>
+<stop offset="0.505208" stop-color="#6D46BB"/>
+<stop offset="1" stop-color="#F995ED"/>
+</linearGradient>
+<image id="image0_54_764" width="225" height="150" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAACWAgMAAABV+geQAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACVBMVEUAI5X////tKTkDtutPAAAAAWJLR0QB/wIt3gAAAAd0SU1FB+UHCxEDD0kK/JUAAAA9SURBVGje7csxAQAgDAOwIpJnatCDSgRUAE/yJylrl7nlxDRN0zRN0zRN0zRN0zRN0zRN0zRN0zRN0/w8H1gJAmyOGdK4AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTA3LTExVDE3OjAzOjE1KzAwOjAw7Z2gvwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMS0wNy0xMVQxNzowMzoxNSswMDowMJzAGAMAAAAASUVORK5CYII="/>
+</defs>
+</svg>
