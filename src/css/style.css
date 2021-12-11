@@ -1,5 +1,5 @@
 /*Typographie*/
-@import url('https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Redressed&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Redressed&family=Work+Sans:wght@500&display=swap');
 
 /*Vendors*/
 @import url(vendors/normalize.css);
@@ -9,3 +9,4 @@
 
 /*Base*/
 @import url(base/main.css);
+@import url(base/media.css);

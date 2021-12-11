@@ -1,7 +1,6 @@
 :root {
 
     /* Color styles */
-    --duotone: rgba(249, 149, 237, 1);
     --bleu: rgba(40, 53, 219, 1);
     --rose: rgba(249, 149, 237, 1);
     --violet: rgba(109, 70, 187, 1);
@@ -10,14 +9,13 @@
     --cyan: rgba(48, 129, 225, 1);
 
     /* Text-size styles */
-    /* base size: base (16px) */
+    /* base size: citation (16px) */
     --titresite: 2.25rem;
     --titrepage: 2.5rem;
     --soustitre: 1.56rem;
     --texte: 0.94rem;
-    --citation: 0.75rem;
+    --citation: 1rem;
     --bouttons: 1.56rem;
-    --base: 1rem;
 
     /* Font-family styles */
     --font-button: 'Economica', sans-serif;
