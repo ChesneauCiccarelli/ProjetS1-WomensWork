@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-txt);
+    font-size: var(--texte);
+    line-height: 1.6;
+    background-color: var(--blanc);
+    color: var(--bleu-foncé);
+}
+
+h1 {
+    font-size: var(--titrepage);
+}
+
+h2 {
+    font-size: var(--soustitre);
+}
