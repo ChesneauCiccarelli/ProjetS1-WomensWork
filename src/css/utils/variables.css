@@ -1,0 +1,30 @@
+:root {
+
+    /* Color styles */
+    --bleu: rgba(40, 53, 219, 1);
+    --rose: rgba(249, 149, 237, 1);
+    --violet: rgba(109, 70, 187, 1);
+    --blanc: rgba(255, 255, 255, 1);
+    --bleu-foncé: rgba(21, 0, 79, 1);
+    --cyan: rgba(48, 129, 225, 1);
+
+    /* Text-size styles */
+    /* base size: citation (16px) */
+    --titresite: 2.25rem;
+    --titrepage: 2.5rem;
+    --soustitre: 1.56rem;
+    --texte: 0.94rem;
+    --citation: 1rem;
+    --bouttons: 1.56rem;
+
+    /* Font-family styles */
+    --font-button: 'Economica', sans-serif;
+    --font-sitetitle: 'Redressed', cursive;
+    --font-txt: 'Work Sans', sans-serif;
+
+    /* Espaces */
+    --space1x: 8px;
+    --space2x: 16px;
+    --space3x: 24px;
+    --space4x: 48px;
+  }

@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-txt);
+    font-size: var(--texte);
+    line-height: 1.6;
+    background-color: var(--blanc);
+    color: var(--bleu-foncé);
+    text-align: left;
+}
+
+h1 {
+    font-size: var(--titrepage);
+    background-clip: padding-box;
+    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: var(--space3x);
+    line-height: 1.15;
+}
+
+h2 {
+    font-size: var(--soustitre);
+    color: var(--bleu);
+}
+
+.header__titresite--txt {
+    font-family: var(--font-sitetitle);
+    font-size: var(--titresite);
+}
+
+.menu__titresite {
+    font-family: var(--font-sitetitle);
+    font-size: var(--titresite);
+}
+
+.menu__liste {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
