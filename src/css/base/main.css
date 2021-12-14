@@ -45,8 +45,21 @@ h2 {
     font-size: var(--titresite);
 }
 
+
+/*Suppression des styles*/
 .menu__liste {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+.menu__liste--link {
+    text-decoration:none
+}
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }

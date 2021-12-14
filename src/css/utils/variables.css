@@ -10,6 +10,7 @@
     
     /* Text-size styles */
     /* base size: citation (16px) */
+    --accueil: 5rem;
     --titresite: 2.25rem;
     --titrepage: 2.5rem;
     --soustitre: 1.56rem;
