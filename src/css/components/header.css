@@ -1,10 +1,1 @@
-.headertop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
-    padding: var(--space2x) var(--space3x);
-    display: flex;
-    justify-content: space-between;
-  }
+

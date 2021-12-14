@@ -7,6 +7,7 @@
 body {
     font-family: var(--font-txt);
     font-size: var(--texte);
+    font-weight: 600;
     line-height: 1.6;
     background-color: var(--blanc);
     color: var(--bleu-foncé);
@@ -20,14 +21,38 @@ h1 {
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
     text-align: center;
-    padding: var(--space3x);
-    line-height: 1.15;
+    padding-bottom: var(--espsection);
+    line-height: 1.10;
 }
 
 h2 {
     font-size: var(--soustitre);
     color: var(--bleu);
+    padding-left: var(--espsection);
+    padding-bottom: var(--esptxt);
+    line-height: 1;
+    padding-right: var(--espsection);
 }
+
+p {
+    padding-bottom: var(--esptxt);
+    margin: var(--espmarge);
+}
+
+li {
+    margin-right: var(--espmarge);
+}
+
+blockquote {
+    font-size: var(--citation);
+    color: var(--violet);
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: var(--esptxt);
+}
+
+
 
 .accueil__titre {
     font-family: var(--font-sitetitle);

@@ -10,22 +10,22 @@
     
     /* Text-size styles */
     /* base size: citation (16px) */
-    --accueil: 5rem;
+    --accueil: 6rem;
     --titresite: 2.25rem;
     --titrepage: 2.5rem;
-    --soustitre: 1.56rem;
-    --texte: 0.94rem;
-    --citation: 1rem;
-    --bouttons: 1.56rem;
+    --soustitre: 1.875rem;
+    --texte: 0.938rem;
+    --citation: 0.75rem;
+    --bouttons: 1.563rem;
 
     /* Font-family styles */
     --font-button: 'Economica', sans-serif;
-    --font-sitetitle: 'Redressed', cursive;
+    --font-title: 'Redressed', cursive;
     --font-txt: 'Work Sans', sans-serif;
 
     /* Espaces */
-    --space1x: 8px;
-    --space2x: 16px;
-    --space3x: 24px;
+    --espmarge: 20px;
+    --esptxt: 55px;
+    --espsection: 30px;
     --space4x: 48px;
   }

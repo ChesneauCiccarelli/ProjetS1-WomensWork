@@ -12,4 +12,22 @@ figcaption{
     color: var(--violet);
     font-style: italic;
     text-align: center;
+    padding-bottom: var(--esptxt);
+    font-weight: 500;
+}
+
+.imagearticle {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.imgvericale {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.duotone img {
+    filter: grayscale(100%);
 }
