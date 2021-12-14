@@ -7,10 +7,10 @@
     --blanc: rgba(255, 255, 255, 1);
     --bleu-foncé: rgba(21, 0, 79, 1);
     --cyan: rgba(48, 129, 225, 1);
-
+    
     /* Text-size styles */
     /* base size: citation (16px) */
-    --titresite: 5.0rem;
+    --titresite: 2.25rem;
     --titrepage: 2.5rem;
     --soustitre: 1.56rem;
     --texte: 0.94rem;
