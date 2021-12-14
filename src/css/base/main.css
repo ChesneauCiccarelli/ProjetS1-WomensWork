@@ -29,6 +29,12 @@ h2 {
     color: var(--bleu);
 }
 
+.accueil__titre {
+    font-family: var(--font-sitetitle);
+    font-size: var(--titresite);
+
+}
+
 .header__titresite--txt {
     font-family: var(--font-sitetitle);
     font-size: var(--titresite);
