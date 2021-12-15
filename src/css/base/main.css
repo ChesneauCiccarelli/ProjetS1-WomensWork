@@ -1,9 +1,10 @@
+
+/*CSS Basiques*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
 body {
     font-family: var(--font-txt);
     font-size: var(--texte);
@@ -13,7 +14,6 @@ body {
     color: var(--bleu-foncé);
     text-align: left;
 }
-
 h1 {
     font-size: var(--titrepage);
     background-clip: padding-box;
@@ -24,7 +24,6 @@ h1 {
     padding-bottom: var(--espsection);
     line-height: 1.10;
 }
-
 h2 {
     font-size: var(--soustitre);
     color: var(--bleu);
@@ -33,16 +32,13 @@ h2 {
     line-height: 1;
     padding-right: var(--espsection);
 }
-
 p {
     padding-bottom: var(--esptxt);
     margin: var(--espmarge);
 }
-
 li {
     margin-right: var(--espmarge);
 }
-
 blockquote {
     font-size: var(--citation);
     color: var(--violet);
@@ -53,22 +49,37 @@ blockquote {
 }
 
 
-
-.accueil__titre {
-    font-family: var(--font-sitetitle);
+/*Header*/
+p.header__titresite--txt {
+    font-weight: 500;
+    padding-bottom: 0;
+    font-family: var(--font-title);
     font-size: var(--titresite);
-
+    background-clip: content-box;
+    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+}
+a.header__titresite--link:link {
+    text-decoration: none; 
 }
 
-.header__titresite--txt {
-    font-family: var(--font-sitetitle);
-    font-size: var(--titresite);
+
+/*Accueil*/
+h1.accueil__titre {
+    font-family: var(--font-title);
+    font-size: var(--accueil);
+    font-weight: 500;
+}
+p.acceuil__soustitre {
+    font-family: var(--soustitre);
+    text-align: center;
+    font-size: var(--soustitre);
 }
 
-.menu__titresite {
-    font-family: var(--font-sitetitle);
-    font-size: var(--titresite);
-}
+
+/*Menu*/
+
 
 
 /*Suppression des styles*/
@@ -87,4 +98,4 @@ button {
     background: none;
     padding: 0;
     cursor: pointer;
-  }
+}

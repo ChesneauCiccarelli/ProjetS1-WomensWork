@@ -13,3 +13,6 @@
 
 /*Components*/
 @import url(components/header.css);
+
+/*Layouts*/
+@import url(layouts/cards.css);
