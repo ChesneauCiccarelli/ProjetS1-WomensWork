@@ -1,0 +1,41 @@
+.headertop {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.header__titresite {
+    text-align: center;
+}
+.header__button {
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+
+
+
+
+.menu {
+    /*visibility: hidden;
+    opacity: 0;*/
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0; right : 0;
+    background-color: var(--blanc);
+    font-size: var(--texte);
+    transition: all .4s ease-in-out;
+}
+
+.menu--open {
+    visibility: visible;
+    opacity: 1;
+}
+
+
