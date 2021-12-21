@@ -58,7 +58,7 @@ p.header__titresite--txt {
     font-weight: 500;
     padding-bottom: 0;
     font-family: var(--font-title);
-    font-size: var(--titresite);
+    font-size: 2em;
     background-clip: content-box;
     background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
                 -webkit-background-clip: text;

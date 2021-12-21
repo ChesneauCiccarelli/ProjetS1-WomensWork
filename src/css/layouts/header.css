@@ -1,0 +1,36 @@
+.noscroll {
+    position: fixed;
+    z-index: 5;
+    background-color: var(--blanc);
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.headertop {
+    display: flex;
+    max-height: 78px;
+    justify-content: space-between;
+}
+
+.header__logo {
+    background-color: var(--blanc);
+    z-index: 5;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header__titresite {
+    z-index: 5;
+    background-color: var(--blanc);
+    text-align: center;
+}
+.header__button {
+    background-color: var(--blanc);
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.header__menubutton {
+    background-color: var(--blanc);
+    margin-right: 20px;
+}
