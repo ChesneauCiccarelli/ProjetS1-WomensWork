@@ -1,0 +1,31 @@
+.navarticle__txt {
+    padding-bottom: 0;
+}
+.navarticle__nav {
+    display:inline-block;
+    margin: 0;
+    text-align: center;
+    margin-bottom: var(--esptxt);
+    text-decoration: none;
+}
+.navarticle {
+    margin: auto;
+}
+a.navarticle__boutontxt {
+    text-decoration: none;
+}
+.navarticle__boutontxt {
+    padding-bottom: 0;
+    text-decoration: none;
+    font-family: var(--font-button);
+    font-size: var(--bouttons);
+}
+
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+.border-gradient-duo {
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
