@@ -103,3 +103,8 @@ button {
     padding: 0;
     cursor: pointer;
 }
+
+/*Articles*/
+.intropage__image{
+    margin-top: 78px;
+}

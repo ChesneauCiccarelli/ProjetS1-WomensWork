@@ -1,31 +1,67 @@
+
+/*Bouttons à la fin des articles Galerie / Lexique / Autres projets*/
 .navarticle__txt {
     padding-bottom: 0;
 }
 .navarticle__nav {
-    display:inline-block;
-    margin: 0;
+    display:grid;
     text-align: center;
     margin-bottom: var(--esptxt);
     text-decoration: none;
-}
-.navarticle {
-    margin: auto;
-}
-a.navarticle__boutontxt {
-    text-decoration: none;
+    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)40%,rgba(249, 149, 237, 1)60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 .navarticle__boutontxt {
-    padding-bottom: 0;
     text-decoration: none;
     font-family: var(--font-button);
     font-size: var(--bouttons);
+    padding: 10px;
+    margin: auto;
+    border: 3px solid;
+    border-radius: 50%;
+    border-left: 100px;
+    border-right: 500px;
+    border-color: var(--violet);
 }
-
-.border-gradient {
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 5px;
+/*Zone bouttons Découvrir Plus*/
+.navarticle__more{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: var(--esptxt);
+    background-color: rgba(40, 53, 219, 0.1);
+    padding-top: 17.5px;
 }
-.border-gradient-duo {
-    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+.navarticle__more--txt{
+    font-size: var(--soustitre);
+    margin: 0;
+    color: var(--bleu);
+    background-color: var(--blanc);
+    margin:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.boutonarticle{
+    text-decoration: none;
+    margin: 10px;
+}
+.boutonarticle__texte{
+    padding-bottom: 0;
+    text-align: center;
+    font-family: var(--font-button);
+    font-size: var(--bouttons);
+    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)40%,rgba(249, 149, 237, 1)60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-radius: 30%;
+    border-color: var(--violet);
+    width: fit-content;
+    margin: auto;
+    padding: 2%
 }
