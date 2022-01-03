@@ -16,12 +16,17 @@ figcaption{
     font-weight: 500;
 }
 
+/*Images d'introduction des pages*/
+.imgverticale {
+    width: 80%;
+}
+
+/*Images dans les articles*/
 .imagearticle {
     width: 80%;
     display: block;
     margin: auto;
 }
-
 
 /*Duotone*/
 .duotone {
@@ -47,3 +52,13 @@ figcaption{
     height: 100%;
     object-fit: cover;
 }
+
+/*Duotone pour les images verticales*/
+.duovertical {
+    width: 70%;
+    margin: auto;
+    background-color: #F995ED;
+    position: relative;
+    overflow: hidden;
+}
+

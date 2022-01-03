@@ -11,7 +11,7 @@ body {
     font-weight: 600;
     line-height: 1.6;
     background-color: var(--blanc);
-    color: var(--bleu-foncé);
+    color: var(--bleu-fonce);
     text-align: left;
 }
 h1 {
@@ -23,6 +23,9 @@ h1 {
     text-align: center;
     padding-bottom: var(--espsection);
     line-height: 1.10;
+    padding: 0;
+    margin-left: 31px;
+    margin-right: 31px;
 }
 h2 {
     font-size: var(--soustitre);
@@ -35,6 +38,7 @@ h2 {
 p {
     padding-bottom: var(--esptxt);
     margin: var(--espmarge);
+    color: var(--bleu-fonce);
 }
 li {
     margin-right: var(--espmarge);
@@ -47,11 +51,9 @@ blockquote {
     font-style: italic;
     padding-bottom: var(--esptxt);
 }
-
 div {
     z-index: -1;
 }
-
 
 /*Header*/
 p.header__titresite--txt {
@@ -68,23 +70,57 @@ a.header__titresite--link:link {
     text-decoration: none; 
 }
 
-
 /*Accueil*/
 h1.accueil__titre {
     font-family: var(--font-title);
     font-size: var(--accueil);
     font-weight: 500;
+    padding-top: 32px;
 }
 p.acceuil__soustitre {
     font-family: var(--soustitre);
     text-align: center;
     font-size: var(--soustitre);
+    color: var(--bleu-fonce);
+    padding-bottom: var(--esptxt);
 }
-
+h2.boutonarticle__texte{
+    margin-top: 20px;
+}
+.tweet{
+    border: solid;
+    max-width: 80%;
+    margin: auto;
+}
+.introarticle{
+    text-align: center;
+    padding-bottom: 0;
+}
+p.txtdeco{
+    padding-bottom: 120px;
+}
+.bureau{
+    margin-top: -220px;
+}
+.boutonarticle{
+    margin:0;
+}
+.pourpadding{
+    margin-top: var(--esptxt);
+}
+.accfooter{
+    margin-top: var(--esptxt);
+}
 
 /*Menu*/
 
-
+/*Articles*/
+.intropage__image{
+    margin-top: 78px;
+}
+.introduction{
+    padding-top: var(--esptxt)
+}
 
 /*Suppression des styles*/
 .menu__liste {
@@ -102,9 +138,4 @@ button {
     background: none;
     padding: 0;
     cursor: pointer;
-}
-
-/*Articles*/
-.intropage__image{
-    margin-top: 78px;
 }

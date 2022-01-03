@@ -39,9 +39,6 @@
     margin: 0;
     color: var(--bleu);
     background-color: var(--blanc);
-    margin:auto;
-    padding-left: 20px;
-    padding-right: 20px;
     text-align: center;
 }
 .boutonarticle{
@@ -57,11 +54,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-radius: 30%;
-    border-color: var(--violet);
     width: fit-content;
     margin: auto;
-    padding: 2%
+}
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    padding: 2%;
+}
+.border-gradient-purple {
+    border-image-source: linear-gradient(-90deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
 }
