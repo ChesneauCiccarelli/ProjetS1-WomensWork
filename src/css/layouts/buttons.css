@@ -17,6 +17,7 @@
     text-decoration: none;
     font-family: var(--font-button);
     font-size: var(--bouttons);
+    color: red;
     padding: 10px;
     margin: auto;
     border: 3px solid;
@@ -50,11 +51,10 @@
     text-align: center;
     font-family: var(--font-button);
     font-size: var(--bouttons);
-    color: var(--violet);
-    /*background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)40%,rgba(249, 149, 237, 1)60%);
+    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)40%,rgba(249, 149, 237, 1)60%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;*/
+    background-clip: text;
     width: fit-content;
     margin: auto;
 }
