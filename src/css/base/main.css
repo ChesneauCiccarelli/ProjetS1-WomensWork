@@ -109,7 +109,11 @@ p.txtdeco{
     margin-top: var(--esptxt);
 }
 
-/*Menu*/
+/*A Propos*/
+p.txtapropos{
+    padding-top: 0px;
+    padding-bottom: var(--espmarge);
+}
 
 /*Articles*/
 .intropage__image{
