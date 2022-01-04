@@ -123,6 +123,11 @@ p.txtapropos{
     padding-top: var(--esptxt)
 }
 
+/*Autres Projets*/
+p.txtautreprojet{
+    padding-top: 0;
+}
+
 /*Suppression des styles*/
 .menu__liste {
     list-style: none;
@@ -131,6 +136,9 @@ p.txtapropos{
 }
 .menu__liste--link {
     text-decoration:none
+}
+.autresite{
+    text-decoration: none;
 }
 button {
     -webkit-appearance: none;
