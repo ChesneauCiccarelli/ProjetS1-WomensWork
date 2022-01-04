@@ -123,9 +123,12 @@ p.txtapropos{
     padding-top: var(--esptxt)
 }
 
-/*Autres Projets*/
-p.txtautreprojet{
-    padding-top: 0;
+/*Autres Projets Galerie et Lexique, texte d'introduction*/
+p.txtintro{
+    padding-top: 10px;
+}
+p.txtspace{
+    padding-bottom: 10px;
 }
 
 /*Suppression des styles*/
@@ -147,4 +150,7 @@ button {
     background: none;
     padding: 0;
     cursor: pointer;
+}
+q{
+    quotes: none;
 }

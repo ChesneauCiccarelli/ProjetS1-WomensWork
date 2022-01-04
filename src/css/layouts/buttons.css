@@ -8,7 +8,8 @@
     text-align: center;
     margin-bottom: var(--esptxt);
     text-decoration: none;
-    /*background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
+    /* Incompatible safari avec border radius
+    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;*/

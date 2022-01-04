@@ -11,12 +11,11 @@
 @import url(base/main.css);
 @import url(base/media.css);
 
-/*Components*/
-@import url(components/header.css);
-
 /*Layouts*/
 @import url(layouts/cards.css);
 @import url(layouts/menu.css);
 @import url(layouts/header.css);
 @import url(layouts/footer.css);
 @import url(layouts/buttons.css);
+@import url(layouts/timeline.css);
+@import url(layouts/lexique.css);

@@ -1,8 +1,9 @@
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: var(--bleu-fonce);
+    background-color: rgba(109, 70, 187, 0.8);
     padding-top: 20px;
+    clip-path: ellipse(120% 100% at 50% 100%);
 }
 
 .footer__contact {
@@ -13,6 +14,7 @@
     gap: 7px;
     border-radius: 10px;
     z-index: 1;
+    margin-top: 15px;
 }
 
 .footer__contact--icone {
@@ -35,6 +37,7 @@
     font-family: var(--font-button);
     color: var(--blanc);
     font-size: 1.8em;
+    margin-bottom: -9px;
 }
 .footer__contact--mail {
     margin: 0;

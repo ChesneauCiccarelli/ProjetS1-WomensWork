@@ -1,0 +1,24 @@
+/*Définitions*/
+.lexique{
+    padding-left: var(--espmarge);
+    padding-right: var(--espmarge);
+}
+.lexique__mot{
+    font-size: var(--soustitre);
+    color: var(--bleu);
+}
+.lexique__ethymologie{
+    font-family: var(--font-txt);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--violet);
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: var(--espmarge);
+}
+.lexique__item{
+    margin-bottom: var(--esptxt);
+}
+.lexique__liste{
+    list-style:square;
+}
