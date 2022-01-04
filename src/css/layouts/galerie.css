@@ -1,0 +1,80 @@
+.figuredufeminisme{
+    text-align: center;
+}
+.ligalerie{
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-color: rgba(109, 70, 187, 1);
+    border-width: 4px;
+    border-style: solid;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.button .button-row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: stretch;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 0;
+}
+  
+.button .part-icon {
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+.button .part-icon .image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 0px;
+    margin: 0px -16px 0px 0px;
+  }
+  
+.button .part-icon .image img {
+    width: 56px;
+    height: 30px;
+    transform: scale(1.55);
+    opacity: 1;
+    margin: auto;
+}
+  
+.button .part-text {
+    display: block;
+    box-sizing: border-box;
+}
+  
+.button .part-text .label {
+    display: block;
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(109, 70, 187, 1);
+    letter-spacing: 0.25em;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-button);
+    font-style: italic;
+}
