@@ -9,6 +9,8 @@
     <title>Women's Work - Féminisme, du début de l'idéologie à l'émancipation du travail des femmes</title>
     <link rel="stylesheet" href="src/css/style.css">
     <script src="//unpkg.com/alpinejs" defer></script>
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"defer></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
 </head>
 
 <body>
@@ -27,7 +29,7 @@
                     </a>
                 </div>
 
-                <button class="header__menubutton">
+                <button class="header__menubutton" onclick="document.body.classList.toggle('menuopen')">
                     <img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
                 </button>
             </div>
@@ -48,7 +50,7 @@
                     </a>
                 </div>
     
-                <div class="header__button">
+                <div class="header__button" onclick="document.body.classList.remove('menuopen')">
                     <img class="header__button--menu" src="public/icones/Croix.svg" alt="Icône de fermeture">
                 </div>
             </div>

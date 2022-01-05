@@ -1,48 +1,42 @@
 
-
+/*CSS du footer du menu*/
 .footermenu {
     display: flex;
     height: 100px;
     justify-content: space-between;
-    background-color: var(--bleu-fonce);
-    opacity: 80%;
+    background-color: #6d46bbe6;
+    clip-path: ellipse(120% 100% at 50% 100%);
 }
 .footermenu__txt {
     color: var(--blanc);
     line-height: 1.5;
-    text-align: center;
-    
+    text-align: center; 
 }
 
-.header__button {
-    background-color: var(--blanc);
-    margin-top: 20px;
-    margin-right: 20px;
-}
-
+/*Boutons de langue*/
 .menu__langue {
     display:flex;
     margin: auto;
     gap: 55px;
-    
 }
 
-.menu {
-    visibility: hidden;
-    opacity: 0;
-    overflow: hidden;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
+/*Animation du menu et display*/
+.menu{
+    background-color: var(--blanc);
+    overflow:hidden;
     position: fixed;
     top: 0; bottom: 0;
     left: 0; right : 0;
-    justify-content: space-between;
-    background-color: var(--blanc);
-    font-size: var(--texte);
     transition: all .4s ease-in-out;
+    z-index: 2;
+    transform: translateX(100vw);
 }
-
+.menuopen .menu {
+    transform: translateX(0);
+}
+.menuopen {
+    overflow: hidden;
+}
 
 
 
