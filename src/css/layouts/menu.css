@@ -42,34 +42,21 @@
     position: fixed;
     top: 0; bottom: 0;
     left: 0; right : 0;
-    /*transition: all .4s ease-in-out;*/
+    transition: all 0.7s cubic-bezier(0, 0.4, 0.16, 1);
     z-index: 2;
     transform: translateX(100vw);
-    
 }
 .menuopen .menu {
     transform: translateX(0);
-    opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: .4s;
 }
-
-
-@keyframes fadeInOpacity {
-	0% {opacity: 0;}
-	100% {opacity: 1;}
-}
-
-
 .menuopen {
     overflow: hidden;
 }
+
 /*Bye bye header*/
 .bye{
     transform: translateX(0);
-    transition: all .2s ease-in-out;
+    transition: all 0.7s cubic-bezier(0, 0.4, 0.16, 1);
 }
 .hidemenu .bye{
     transform: translateX(-100vw);
