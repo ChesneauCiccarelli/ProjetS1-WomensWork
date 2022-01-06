@@ -82,14 +82,25 @@ p.acceuil__soustitre {
     text-align: center;
     font-size: var(--soustitre);
     color: var(--bleu-fonce);
-    padding-bottom: var(--esptxt);
+}
+.introduction{
+    margin-bottom: 0;
 }
 h2.boutonarticle__texte{
     margin-top: 20px;
 }
+.parlonsfem{
+    padding-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)40%,rgba(249, 149, 237, 1)60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 .tweet{
     border: solid;
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
 }
 .introarticle{
@@ -107,11 +118,6 @@ p.txtdeco{
 }
 .accfooter{
     margin-top: var(--esptxt);
-}
-.video{
-    padding-bottom: var(--esptxt);
-    margin-bottom: 20px;
-    max-width: 100%;
 }
 
 /*A Propos*/

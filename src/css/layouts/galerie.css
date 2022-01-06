@@ -23,7 +23,6 @@
     text-decoration: none;
     cursor: pointer;
 }
-  
 .button .button-row {
     display: flex;
     flex-wrap: nowrap;
@@ -34,7 +33,6 @@
     padding: 5px 10px;
     margin: 0;
 }
-  
 .button .part-icon {
     display: block;
     box-sizing: border-box;
@@ -52,7 +50,6 @@
     padding: 0px 0px 0px 0px;
     margin: 0px -16px 0px 0px;
   }
-  
 .button .part-icon .image img {
     width: 56px;
     height: 30px;
@@ -60,12 +57,10 @@
     opacity: 1;
     margin: auto;
 }
-  
 .button .part-text {
     display: block;
     box-sizing: border-box;
 }
-  
 .button .part-text .label {
     display: block;
     box-sizing: border-box;
@@ -114,3 +109,5 @@
     padding-bottom: var(--esptxt);
     margin-bottom: 0;
 }
+
+/*Galerie de personnages*/

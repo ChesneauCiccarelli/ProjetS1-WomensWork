@@ -45,7 +45,7 @@
 }
 .boutonarticle{
     text-decoration: none;
-    margin: 10px;
+    display: block;
 }
 .boutonarticle__texte{
     padding-bottom: 0;

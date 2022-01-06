@@ -62,3 +62,22 @@ figcaption{
     overflow: hidden;
 }
 
+/*Video*/
+.videocontainer__videotitle{
+    padding-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)40%,rgba(249, 149, 237, 1)60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.videocontainer__txt{
+    padding-bottom: 0;
+}
+.video{
+    padding-bottom: var(--esptxt);
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
