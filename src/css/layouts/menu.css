@@ -53,5 +53,15 @@
     overflow: hidden;
 }
 
+/*Bye bye header*/
+.hidemenu .bye{
+    display: none;
+}
+.croix{
+    background-color: var(--blanc);
+    margin-top: 15px;
+    margin-right: 20px;  
+}
+
 
 

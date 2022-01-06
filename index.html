@@ -15,7 +15,7 @@
 
 <body>
     <header class="header">
-        <div class="noscroll">
+        <div class="noscroll bye">
             <div class="headertop">
                 <div class="header__logo">
                     <a href="/index.html">
@@ -29,7 +29,7 @@
                     </a>
                 </div>
 
-                <button class="header__menubutton" onclick="document.body.classList.toggle('menuopen')">
+                <button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
                     <img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
                 </button>
             </div>
@@ -50,9 +50,9 @@
                     </a>
                 </div>
     
-                <div class="header__button" onclick="document.body.classList.remove('menuopen')">
-                    <img class="header__button--menu" src="public/icones/Croix.svg" alt="Icône de fermeture">
-                </div>
+                <button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+                    <img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Icône de fermeture">
+                </button>
             </div>
 
             <div class="menu__langue">
