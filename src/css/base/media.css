@@ -16,6 +16,11 @@ figcaption{
     font-weight: 500;
 }
 
+/*Articles*/
+.intropage__image{
+    margin-top: 78px;
+}
+
 /*Images d'introduction des pages*/
 .imgverticale {
     width: 80%;

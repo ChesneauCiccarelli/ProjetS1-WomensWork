@@ -127,9 +127,6 @@ p.txtapropos{
 }
 
 /*Articles*/
-.intropage__image{
-    margin-top: 78px;
-}
 .introduction{
     padding-top: var(--esptxt)
 }
