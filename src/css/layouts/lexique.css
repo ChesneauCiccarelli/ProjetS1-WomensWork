@@ -1,3 +1,9 @@
+
+/*CSS base*/
+.introduction2 {
+    margin-bottom: 0;
+}
+
 /*Définitions*/
 .lexique{
     padding-left: var(--espmarge);
