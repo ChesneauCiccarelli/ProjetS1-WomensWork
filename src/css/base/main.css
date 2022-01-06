@@ -108,6 +108,11 @@ p.txtdeco{
 .accfooter{
     margin-top: var(--esptxt);
 }
+.video{
+    padding-bottom: var(--esptxt);
+    margin-bottom: 20px;
+    max-width: 100%;
+}
 
 /*A Propos*/
 p.txtapropos{
