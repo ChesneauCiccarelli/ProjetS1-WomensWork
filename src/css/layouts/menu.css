@@ -11,7 +11,7 @@
     color: var(--bleu-fonce);
     font-weight: 500;
     font-size: 1.350rem;
-    text-shadow: 3px 2px 4px rgba(108, 69, 186, 0.9);
+    text-shadow: 3px 2px 4px rgba(108, 69, 186, 0.8);
     background-color: rgba(249, 149, 237, 0.5);
     margin-top: 6%;
     margin-right: 0;
@@ -26,7 +26,8 @@
 .menu__langue {
     display:flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 13px;
+    margin-bottom: 10px;
 }
 .menu__langue--en{
     margin-right: 7rem;

@@ -151,6 +151,9 @@ p.txtspace{
 .autresite{
     text-decoration: none;
 }
+.boutonarticle{
+    text-decoration: none;
+}
 button {
     -webkit-appearance: none;
     appearance: none;
