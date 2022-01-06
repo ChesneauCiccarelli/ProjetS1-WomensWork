@@ -2,4 +2,52 @@ form{
     text-align: left;
     padding: auto;
     background-color: rgba(249, 149, 237, 0.5);
+    padding-left: var(--espmarge);
+    padding-right: var(--espmarge);
+    border: 2px solid rgba(249, 149, 237, 1);
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid rgba(249, 149, 237, 1);
+    box-shadow: 1px 1px 1px rgba(109, 70, 187, 1);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+label {
+    display: block;
+    padding-top: 10px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 9px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(249, 149, 237, 1);
+    box-shadow: 1px 1px 1px rgba(109, 70, 187, 1);
+}
+input[type=submit] {
+    width: 100%;
+    background-color: rgba(109, 70, 187, 0.4);
+    color: var(--bleu-fonce);
+    font-family: var(--font-button);
+    font-size: var(--bouttons);
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px rgba(109, 70, 187, 1);
+}
+.captcha{
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px ;
 }

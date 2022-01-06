@@ -12,7 +12,6 @@
 @import url(base/media.css);
 
 /*Layouts*/
-@import url(layouts/cards.css);
 @import url(layouts/menu.css);
 @import url(layouts/header.css);
 @import url(layouts/footer.css);
