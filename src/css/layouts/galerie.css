@@ -1,81 +1,83 @@
 
-/*CSS base*/
-.figuredufeminisme{
-    text-align: center;
+/*CSS Base*/
+.figuredufeminisme {
+    text-align:center;
 }
-.ligalerie{
-    text-align: left;
+.ligalerie {
+    text-align:left;
 }
 
-/*Galerie de personnages*/
-.portrait__img{
-    float: left;
-    max-width: 50%;
+/*Figure du féminisme*/
+.portrait__img {
+    float:left;
+    max-width:50%;
 }
-.portrait__nom{
-    font-family: var(--font-txt) ;
-    font-size: var(--soustitre);
-    line-height: 1.2;
-    margin-top: 0;
-    margin-right: 10px;
-    padding-top: 2rem;
-    text-align: center;
-    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)65%,rgba(249, 149, 237, 1)80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    
+.portrait__nom {
+    font-family:var(--font-txt);
+    font-size:var(--soustitre);
+    line-height:1.2;
+    margin-top:0;
+    margin-right:10px;
+    padding-top:2rem;
+    text-align:center;
+    background:-webkit-linear-gradient(360deg,rgba(40,53,219,1)65%,rgba(249,149,237,1)80%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
 }
-.portrait__date{
-    font-size: 1.3rem;
-    text-align: center;
-    margin-right: 10px;
-    padding-bottom: 0;
-    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)65%,rgba(249, 149, 237, 1)80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 42px;
+    
+.portrait__date {
+    font-size:1.3rem;
+    text-align:center;
+    margin-right:10px;
+    padding-bottom:0;
+    background:-webkit-linear-gradient(360deg,rgba(40,53,219,1)65%,rgba(249,149,237,1)80%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+    margin-bottom:42px;
 }
-.portrait__date--variant{
-    margin-bottom: 78px;
+.portrait__date--variant {
+    margin-bottom:78px;
 }
-.galerietxtspecial{
+.galerietxtspecial {
     padding:0;
-    margin-top: 0;
-    padding-top: 10px;
+    margin-top:0;
+    padding-top:10px;
 }
 
 /*Timeline*/
-.friselogodatediv{
-    display: flex;
-    align-items: center;
-    max-height: 40px;
-    margin-left: var(--espmarge);
-    margin-top: var(--espmarge);
+.friselogodatediv {
+    display:flex;
+    align-items:center;
+    max-height:40px;
+    margin-left:var(--espmarge);
+    margin-top:var(--espmarge);
 }
-.partiefrise__date{
-    font-size: 1.8rem;
-    margin: 0;
-    padding: 0;
-    padding-left: 1rem;
+.partiefrise__date {
+    font-size:1.8rem;
+    margin:0;
+    padding:0;
+    padding-left:1rem;
 }
-.partiefrise__txt{
-    padding: 0;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 40px;
+.partiefrise__txt {
+    padding:0;
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+    margin-left:40px;
 }
 .partiefrise__decorfrise {
-    display: block;
-    height: 100px;
-    width: 20px;
-    margin: auto;
-    background-color: var(--rose);
-    clip-path: ellipse(42% 100% at 49.84% 0%);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-  }
-.lastdate{
-    padding-bottom: var(--esptxt);
-    margin-bottom: 0;
+    display:block;
+    height:100px;
+    width:20px;
+    margin:auto;
+    background-color:var(--rose);
+    clip-path:ellipse(42% 100% at 49.84% 0%);
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+}
+.lastdate {
+    padding-bottom:var(--esptxt);
+    margin-bottom:0;
 }

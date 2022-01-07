@@ -1,44 +1,46 @@
+
+/*Header fixe*/
 .noscroll {
-    position: fixed;
-    z-index: 5;
-    background-color: var(--blanc);
-    top: 0;
-    left: 0;
-    right: 0;
+    position:fixed;
+    z-index:5;
+    background-color:var(--blanc);
+    top:0;
+    left:0;
+    right:0;
 }
 
-/*Header des pages*/
+/*Header du site*/
 .headertop {
-    display: flex;
-    max-height: 78px;
-    justify-content: space-between;
+    display:flex;
+    max-height:78px;
+    justify-content:space-between;
 }
 .header__logo {
-    background-color: var(--blanc);
-    z-index: 5;
-    margin-top: 20px;
-    margin-left: 20px;
+    background-color:var(--blanc);
+    z-index:5;
+    margin-top:20px;
+    margin-left:20px;
 }
 .header__titresite {
-    z-index: 5;
-    background-color: var(--blanc);
-    text-align: center;
+    z-index:5;
+    background-color:var(--blanc);
+    text-align:center;
 }
 .header__menubutton {
-    background-color: var(--blanc);
-    margin-top: 15px;
-    margin-right: 20px;
+    background-color:var(--blanc);
+    margin-top:15px;
+    margin-right:20px;
 }
 
 /*Header spécial menu*/
-.headermenu{
-    z-index: 8;
+.headermenu {
+    z-index:5;
 }
-.croix{
-    background-color: var(--blanc);
-    margin-top: 15px;
-    margin-right: 20px;  
+.croix {
+    background-color:var(--blanc);
+    margin-top:15px;
+    margin-right:20px;
 }
-p.txtmenutitre{
-    letter-spacing: 0.5rem;
+p.txtmenutitre {
+    letter-spacing:.5rem;
 }

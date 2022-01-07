@@ -1,3 +1,5 @@
+
+/*CSS du Footer du site*/
 .footer {
     display:flex;
     flex-direction:column;
@@ -5,7 +7,6 @@
     padding-top:20px;
     clip-path:ellipse(120% 100% at 50% 100%);
 }
-    
 .footer__contact {
     text-decoration:none;
     border:3px solid var(--blanc);
@@ -16,23 +17,19 @@
     z-index:1;
     margin-top:15px;
 }
-    
 .footer__contact--icone {
     padding-left:10px;
 }
-    
 .footertop {
     display:flex;
     flex-direction:column;
     text-align:center;
 }
-    
 .footertxt {
     display:flex;
     flex-direction:column;
     z-index:1;
 }
-    
 .footer__contact--nom {
     margin:0;
     padding-bottom:0;
@@ -41,7 +38,6 @@
     font-size:1.8em;
     margin-bottom:-9px;
 }
-    
 .footer__contact--mail {
     margin:0;
     padding-bottom:0;
@@ -51,7 +47,6 @@
     padding-right:10px;
     padding-bottom:10px;
 }
-    
 .footerbot {
     padding-top:100px;
     display:flex;
@@ -59,7 +54,6 @@
     text-align:left;
     margin:auto;
 }
-    
 .footerbot__txt {
     text-align:center;
     padding-bottom:0;

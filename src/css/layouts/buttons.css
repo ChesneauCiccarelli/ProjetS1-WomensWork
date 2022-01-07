@@ -1,201 +1,192 @@
 
 /*Bouttons à la fin des articles Galerie / Lexique / Autres projets*/
 .navarticle__txt {
-    padding-bottom: 0;
+    padding-bottom:0;
 }
 .navarticle__nav {
     display:grid;
-    text-align: center;
-    margin-bottom: var(--esptxt);
-    text-decoration: none;
-    /* Incompatible safari avec border radius
-    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;*/
+    text-align:center;
+    margin-bottom:var(--esptxt);
+    text-decoration:none;
 }
 .navarticle__boutontxt {
-    text-decoration: none;
-    font-family: var(--font-button);
-    font-size: var(--bouttons);
-    padding: 10px;
-    color: var(--violet);
-    margin: auto;
-    border: 3px solid;
-    border-radius: 50%;
-    border-left: 100px;
-    border-right: 500px;
-    border-color: var(--violet);
+    text-decoration:none;
+    font-family:var(--font-button);
+    font-size:var(--bouttons);
+    padding:10px;
+    color:var(--violet);
+    margin:auto;
+    border:3px solid;
+    border-radius:50%;
+    border-left:100px;
+    border-right:500px;
+    border-color:var(--violet);
 }
-/*Zone bouttons Découvrir Plus*/
-.navarticle__more{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: var(--esptxt);
-    background-color: rgba(40, 53, 219, 0.1);
-    padding-top: 17.5px;
+
+/*Zone bouton Découvrir Plus*/
+.navarticle__more {
+    display:flex;
+    flex-direction:column;
+    margin-bottom:var(--esptxt);
+    background-color:rgba(40,53,219,0.1);
+    padding-top:17.5px;
 }
-.navarticle__more--txt{
-    font-size: var(--soustitre);
-    margin: 0;
-    color: var(--bleu);
-    background-color: var(--blanc);
-    text-align: center;
+.navarticle__more--txt {
+    font-size:var(--soustitre);
+    margin:0;
+    color:var(--bleu);
+    background-color:var(--blanc);
+    text-align:center;
 }
-.boutonarticleplus{
-    text-decoration: none;
-    display: block;
-    margin-bottom: 20px;
+.boutonarticleplus {
+    text-decoration:none;
+    display:block;
+    margin-bottom:20px;
 }
-.boutonarticle__texte{
-    padding-bottom: 0;
-    text-align: center;
-    font-family: var(--font-button);
-    font-size: var(--bouttons);
-    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)40%,rgba(249, 149, 237, 1)60%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    width: fit-content;
-    margin: auto;
+.boutonarticle__texte {
+    padding-bottom:0;
+    text-align:center;
+    font-family:var(--font-button);
+    font-size:var(--bouttons);
+    background:-webkit-linear-gradient(360deg,rgba(40,53,219,1)40%,rgba(249,149,237,1)60%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+    width:fit-content;
+    margin:auto;
 }
 .border-gradient {
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 2px;
-    padding: 2%;
+    border:10px solid;
+    border-image-slice:1;
+    border-width:2px;
+    padding:2%;
 }
 .border-gradient-purple {
-    border-image-source: linear-gradient(-90deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
+    border-image-source:linear-gradient(-90deg,rgba(40,53,219,1),rgba(249,149,237,1));
 }
-.navarticle__more--button1{
-    margin-top: 20px;
-}
-
-/*Boutton autres projets*/
-p.autresite__nom{
-    padding-bottom: 0;
-}
-.autresite{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1.5rem ;
-    padding: 4%;
-    max-height: fit-content;
-    width: fit-content;
-    margin: auto;
-    border-left: dotted;
-    border-right: dotted;
-    border-width: 10px 4px;
-    border-radius: 10px 40px;
-    border-color: var(--violet);
-}
-.autresite__nom{
-    font-family: var(--font-button);
-    font-size: var(--bouttons);
-    text-align: center;
-    margin: 0;
-    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)40%,rgba(249, 149, 237, 1)60%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-.autresite__auteur{
-    font-family: var(--font-button);
-    font-size: var(--bouttons);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-.square{
-    margin: auto;
-    height: 60px;
-    width: 21px;
-    background-color: var(--rose);
+.navarticle__more--button1 {
+    margin-top:20px;
 }
 
-/*Boutton découvrir plus dans galerie / Boutton site Montbéliard*/
+/*Bouton Autres Projets*/
+p.autresite__nom {
+    padding-bottom:0;
+}
+.autresite {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:1.5rem;
+    padding:4%;
+    max-height:fit-content;
+    width:fit-content;
+    margin:auto;
+    border-left:dotted;
+    border-right:dotted;
+    border-width:10px 4px;
+    border-radius:10px 40px;
+    border-color:var(--violet);
+}
+.autresite__nom {
+    font-family:var(--font-button);
+    font-size:var(--bouttons);
+    text-align:center;
+    margin:0;
+    background:-webkit-linear-gradient(360deg,rgba(40,53,219,1)40%,rgba(249,149,237,1)60%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+.autresite__auteur {
+    font-family:var(--font-button);
+    font-size:var(--bouttons);
+    text-align:center;
+    margin:0;
+    padding:0;}
+    .square {
+    margin:auto;
+    height:60px;
+    width:21px;
+    background-color:var(--rose);
+}
+
+/*Bouton Découvrir Plus dans Galerie / Boutton Site Montbéliard*/
 .buttonmore {
-    display: inline-block;
-    box-sizing: border-box;
-    width: auto;
-    height: auto;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    border-top-right-radius: 100px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-color: rgba(109, 70, 187, 1);
-    border-width: 2px;
-    border-style: solid;
-    text-decoration: none;
-    cursor: pointer;
-    margin-bottom: 5rem;
+    display:inline-block;
+    box-sizing:border-box;
+    width:auto;
+    height:auto;
+    text-align:center;
+    padding:10px;
+    border-color:rgba(109,70,187,1);
+    border-width:2px;
+    border-style:solid;
+    text-decoration:none;
+    cursor:pointer;
+    margin-bottom:5rem;
+    border-radius:100px;
 }
 .buttonmore .button-row {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    justify-content: stretch;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 5px 10px;
-    margin: 0;
-}
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:row-reverse;
+    justify-content:stretch;
+    align-items:center;
+    box-sizing:border-box;
+    padding:5px 10px;
+    margin:0;
+}  
 .buttonmore .part-icon {
-    display: block;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
+    display:block;
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+} 
 .buttonmore .part-icon .image {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
-    margin: 0px -16px 0px 0px;
-  }
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items:center;
+    box-sizing:border-box;
+    padding:0;
+    margin:0 -16px 0 0;
+}
 .buttonmore .part-icon .image img {
-    width: 56px;
-    height: 30px;
-    transform: scale(1.55);
-    opacity: 1;
-    margin: auto;
+    width:56px;
+    height:30px;
+    transform:scale(1.55);
+    opacity:1;
+    margin:auto;
 }
 .buttonmore .part-text {
-    display: block;
-    box-sizing: border-box;
+    display:block;
+    box-sizing:border-box;
 }
 .buttonmore .part-text .label {
-    display: block;
-    box-sizing: border-box;
-    font-size: 1.3rem;
-    line-height: 100%;
-    text-align: center;
-    color: rgba(109, 70, 187, 1);
-    letter-spacing: 0.20em;
-    padding: 0;
-    margin: 0;
-    font-family: var(--font-button);
+    display:block;
+    box-sizing:border-box;
+    font-size:1.3rem;
+    line-height:100%;
+    text-align:center;
+    color:rgba(109,70,187,1);
+    letter-spacing:.2em;
+    padding:0;
+    margin:0;
+    font-family:var(--font-button);
 }
 
-/*Boutton site MMI dans la page de contact*/
-.MMIbuttonuppertext{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
-    font-size: 1rem;
-    margin-bottom: 0;
+/*Boutton Site MMI dans la Page de Contact*/
+.MMIbuttonuppertext {
+    padding-bottom:20px;
+    padding-top:20px;
+    text-align:center;
+    font-size:1rem;
+    margin-bottom:0;
 }
-.bouttonMMI{
-    text-align: center;
+.bouttonMMI {
+    text-align:center;
 }
-.buttonmoremmi{
-    margin-bottom: 40px;
+.buttonmoremmi {
+    margin-bottom:40px;
 }

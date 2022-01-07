@@ -1,15 +1,15 @@
 :root {
 
-    /* Color styles */
+  /* Color styles */
     --bleu: rgba(40, 53, 219, 1);
     --rose: rgba(249, 149, 237, 1);
     --violet: rgba(109, 70, 187, 1);
     --blanc: rgba(255, 255, 255, 1);
     --bleu-fonce: rgba(21, 0, 79, 1);
     --cyan: rgba(48, 129, 225, 1);
-    
-    /* Text-size styles */
-    /* base size: citation (16px) */
+      
+  /* Text-size styles */
+  /* base size: (16px) */
     --accueil: 6rem;
     --titresite: 2.25rem;
     --titrepage: 2.5rem;
@@ -18,14 +18,14 @@
     --citation: 0.85rem;
     --bouttons: 1.563rem;
 
-    /* Font-family styles */
+  /* Font-family styles */
     --font-button: 'Economica', sans-serif;
     --font-title: 'Redressed', cursive;
     --font-txt: 'Work Sans', sans-serif;
 
-    /* Espaces */
+  /* Espaces */
     --espmarge: 20px;
     --esptxt: 55px;
     --espsection: 30px;
     --space4x: 48px;
-  }
+}

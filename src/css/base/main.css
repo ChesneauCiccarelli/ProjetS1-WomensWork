@@ -1,168 +1,165 @@
 
 /*CSS Basiques*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+*,::before,::after {
+    box-sizing:border-box;
 }
 body {
-    font-family: var(--font-txt);
-    font-size: var(--texte);
-    font-weight: 600;
-    line-height: 1.6;
-    background-color: var(--blanc);
-    color: var(--bleu-fonce);
-    text-align: left;
-}
+    font-family:var(--font-txt);
+    font-size:var(--texte);
+    font-weight:600;
+    line-height:1.6;
+    background-color:var(--blanc);
+    color:var(--bleu-fonce);
+    text-align:left;
+} 
 h1 {
-    font-size: var(--titrepage);
-    background-clip: padding-box;
-    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-    text-align: center;
-    padding-bottom: var(--espsection);
-    line-height: 1.10;
-    padding: 0;
-    margin-left: 31px;
-    margin-right: 31px;
+    font-size:var(--titrepage);
+    background-clip:padding-box;
+    background:-webkit-linear-gradient(360deg,rgba(40,53,219,1),rgba(249,149,237,1));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-align:center;
+    line-height:1.1;
+    padding:0;
+    margin-left:31px;
+    margin-right:31px;
 }
 h2 {
-    font-size: var(--soustitre);
-    color: var(--bleu);
-    padding-left: var(--espsection);
-    padding-bottom: var(--esptxt);
-    line-height: 1;
-    padding-right: var(--espsection);
+    font-size:var(--soustitre);
+    color:var(--bleu);
+    padding-left:var(--espsection);
+    padding-bottom:var(--esptxt);
+    line-height:1;
+    padding-right:var(--espsection);
 }
 p {
-    padding-bottom: var(--esptxt);
-    margin: var(--espmarge);
-    color: var(--bleu-fonce);
+    padding-bottom:var(--esptxt);
+    margin:var(--espmarge);
+    color:var(--bleu-fonce);
 }
 li {
-    margin-right: var(--espmarge);
+    margin-right:var(--espmarge);
 }
 blockquote {
-    font-size: var(--citation);
-    color: var(--violet);
-    text-align: center;
-    font-weight: 500;
-    font-style: italic;
-    padding-bottom: var(--esptxt);
+    font-size:var(--citation);
+    color:var(--violet);
+    text-align:center;
+    font-weight:500;
+    font-style:italic;
+    padding-bottom:var(--esptxt);
 }
 div {
-    z-index: -1;
+    z-index:-1;
 }
 
 /*Header*/
 p.header__titresite--txt {
-    font-weight: 500;
-    padding-bottom: 0;
-    font-family: var(--font-title);
-    font-size: 2em;
-    background-clip: content-box;
-    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1),rgba(249, 149, 237, 1));
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+    font-weight:500;
+    padding-bottom:0;
+    font-family:var(--font-title);
+    font-size:2em;
+    background-clip:content-box;
+    background:-webkit-linear-gradient(360deg,rgba(40,53,219,1),rgba(249,149,237,1));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 a.header__titresite--link:link {
-    text-decoration: none; 
+    text-decoration:none;
 }
 
 /*Accueil*/
 h1.accueil__titre {
-    font-family: var(--font-title);
-    font-size: var(--accueil);
-    font-weight: 500;
-    padding-top: 40px;
+    font-family:var(--font-title);
+    font-size:var(--accueil);
+    font-weight:500;
+    padding-top:40px;
 }
 p.acceuil__soustitre {
-    font-family: var(--soustitre);
-    text-align: center;
-    font-size: var(--soustitre);
-    color: var(--bleu-fonce);
+    font-family:var(--soustitre);
+    text-align:center;
+    font-size:var(--soustitre);
+    color:var(--bleu-fonce);
 }
-.introduction{
-    margin-bottom: 0;
+.introduction {
+    margin-bottom:0;
 }
-h2.boutonarticle__texte{
-    margin-top: 20px;
-    margin-bottom: 20px;
+h2.boutonarticle__texte {
+    margin-top:20px;
+    margin-bottom:20px;
 }
-.parlonsfem{
-    padding-bottom: 0;
-    margin-top: 0;
-    text-align: center;
-    background: -webkit-linear-gradient(360deg,rgba(40, 53, 219, 1)40%,rgba(249, 149, 237, 1)60%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.parlonsfem {
+    padding-bottom:0;
+    margin-top:0;
+    text-align:center;
+    background:-webkit-linear-gradient(360deg,rgba(40,53,219,1)40%,rgba(249,149,237,1)60%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
 }
-.tweet{
-    border: solid;
-    max-width: 90%;
-    margin: auto;
+.tweet {
+    border:solid;
+    max-width:90%;
+    margin:auto;
 }
-.introarticle{
-    text-align: center;
-    padding-bottom: 0;
+.introarticle {
+    text-align:center;
+    padding-bottom:0;
 }
-p.txtdeco{
-    padding-bottom: 120px;
+p.txtdeco {
+    padding-bottom:120px;
 }
-.bureau{
-    margin-top: -220px;
+.bureau {
+    margin-top:-220px;
 }
-.pourpadding{
-    margin-top: var(--esptxt);
+.pourpadding {
+    margin-top:var(--esptxt);
 }
-.accfooter{
-    margin-top: var(--esptxt);
+.accfooter {
+    margin-top:var(--esptxt);
 }
-
+ 
 /*A Propos*/
-p.txtapropos{
-    padding-top: 0px;
-    padding-bottom: var(--espmarge);
-}
+    p.txtapropos {
+    padding-top:0;
+    padding-bottom:var(--espmarge);
+    }
 
 /*Articles*/
-.introduction{
-    padding-top: var(--esptxt)
+.introduction {
+    padding-top:var(--esptxt);
 }
 
 /*Autres Projets Galerie et Lexique, texte d'introduction*/
-p.txtintro{
-    padding-top: 10px;
+p.txtintro {
+    padding-top:10px;
 }
-p.txtspace{
-    padding-bottom: 10px;
+p.txtspace {
+    padding-bottom:10px;
 }
 
 /*Suppression des styles*/
 .menu__liste {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    list-style:none;
+    margin:0;
+    padding:0;
 }
 .menu__liste--link {
-    text-decoration:none
+    text-decoration:none;
 }
-.autresite{
-    text-decoration: none;
+.autresite {
+    text-decoration:none;
 }
-.boutonarticle{
-    text-decoration: none;
+.boutonarticle {
+    text-decoration:none;
 }
 button {
-    -webkit-appearance: none;
-    appearance: none;
-    border: none;
-    background: none;
-    padding: 0;
-    cursor: pointer;
+    -webkit-appearance:none;
+    appearance:none;
+    border:none;
+    background:none;
+    padding:0;
+    cursor:pointer;
 }
-q{
-    quotes: none;
+q {
+    quotes:none;
 }

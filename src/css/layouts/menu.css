@@ -1,67 +1,69 @@
 
 /*Liens*/
-.menu__liste{
-    display: flex;
-    flex-direction: column;
-    gap: 5%;
+.menu__liste {
+    display:flex;
+    flex-direction:column;
+    gap:5%;
 }
-.menu__liste--item{
-    text-align: center;
-    font-family: var(--font-txt);
-    color: var(--bleu-fonce);
-    font-weight: 500;
-    font-size: 1.350rem;
-    text-shadow: 3px 2px 4px rgba(108, 69, 186, 0.8);
-    background-color: rgba(249, 149, 237, 0.5);
-    margin-top: 6%;
-    margin-right: 0;
-    margin-top: 6%;
-    padding: 2%;
+.menu__liste--item {
+    text-align:center;
+    font-family:var(--font-txt);
+    color:var(--bleu-fonce);
+    font-weight:500;
+    font-size:1.35rem;
+    text-shadow:3px 2px 4px rgba(108,69,186,0.8);
+    background-color:rgba(249,149,237,0.5);
+    margin-top:6%;
+    margin-right:0;
+    margin-top:6%;
+    padding:2%;
 }
-.menu__liste--link{
-    display: block;
+.menu__liste--link {
+    display:block;
 }
-
+    
 /*Boutons de langue*/
 .menu__langue {
     display:flex;
-    justify-content: space-between;
-    margin-top: 13px;
-    margin-bottom: 10px;
+    justify-content:space-between;
+    margin-top:13px;
+    margin-bottom:10px;
 }
-.menu__langue--en{
-    margin-right: 7rem;
+.menu__langue--en {
+    margin-right:7rem;
 }
-.menu__langue--fr{
-    margin-left: 7rem;
+.menu__langue--fr {
+    margin-left:7rem;
 }
 
 /*Animation du menu et display*/
-.menu{
-    background-color: var(--blanc);
+.menu {
+    background-color:var(--blanc);
     overflow:hidden;
-    position: fixed;
-    top: 0; bottom: 0;
-    left: 0; right : 0;
-    transition: all 0.7s cubic-bezier(0, 0.4, 0.16, 1);
-    z-index: 2;
-    transform: translateX(100vw);
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    transition:all .7s cubic-bezier(0,0.4,0.16,1);
+    z-index:2;
+    transform:translateX(100vw);
 }
+    
 .menuopen .menu {
-    transform: translateX(0);
+    transform:translateX(0);
 }
+    
 .menuopen {
-    overflow: hidden;
+    overflow:hidden;
 }
 
 /*Bye bye header*/
-.bye{
-    transform: translateX(0);
-    transition: all 0.7s cubic-bezier(0, 0.4, 0.16, 1);
+.bye {
+    transform:translateX(0);
+    transition:all .7s cubic-bezier(0,0.4,0.16,1);
 }
-.hidemenu .bye{
-    transform: translateX(-100vw);
+    
+.hidemenu .bye {
+    transform:translateX(-100vw);
 }
-
-
-
