@@ -55,6 +55,10 @@
 .menuopen {
     overflow:hidden;
 }
+.menuclose{
+    transition: all 1s cubic-bezier(1, 0, 1, -0.09);
+    transform:translateX(100vw);
+}
 
 /*Bye bye header*/
 .bye {
