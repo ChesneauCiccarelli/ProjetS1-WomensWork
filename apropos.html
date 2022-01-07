@@ -1,130 +1,98 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Women's Work - À-propos</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <script src="//unpkg.com/alpinejs" defer></script>
-    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
-	<script src="https://animejs.com/lib/anime.min.js"></script>
-</head>
-
-<body>
-    <header class="header">
-        <div class="noscroll bye">
-            <div class="headertop">
-                <div class="header__logo">
-                    <a href="/index.html">
-                        <img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
-                    </a>
-                </div>
-
-                <div class="header__titresite">
-                    <a class="header__titresite--link" href="/index.html">
-                        <p  class="header__titresite--txt" > Women's Work</p>
-                    </a>
-                </div>
-
-                <button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
-                    <img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
-                </button>
-            </div>
-        </div>
-    
-
-        <nav class="menu">
-            <div class="headertop headermenu">
-                <div class="header__logo">
-                    <a href="/index.html">
-                        <img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
-                    </a>
-                </div>
-    
-                <div class="header__titresite">
-                    <a class="header__titresite--link" href="/index.html">
-                        <p  class="header__titresite--txt txtmenutitre" > Menu</p>
-                    </a>
-                </div>
-    
-                <button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
-                    <img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Icône de fermeture">
-                </button>
-            </div>
-
-            <div class="menu__langue">
-                <a class="menu__langue--fr" href="index.html">
-                    <img class="langue__bouton1" src="public/icones/LangFR.svg" alt="Logo de changement de langue Français">
-                </a>
-                <a class="menu__langue--en" href="accueilEN.html">
-                    <img class="langue__bouton2" src="public/icones/LangEN.svg" alt="Logo de changement de langue Anglais">
-                </a>
-            </div>
-
-            <ul class="menu__liste">
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article1.html">Féminisme, idéologie et travail</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article2.html">Travail genré et inégalité salariale</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article3.html">Femmes de pouvoir, un travail mondial</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="galerie.html">Galerie</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="lexique.html">Lexique</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="apropos.html">À-propos</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="autresprojets.html">Autres projets</a>
-                </li>                
-            </ul>
-        </nav>        
-    </header>
-
-    <main>
-        <section class="intropage">
-            <div class="duotone">
-                <img class="intropage__image" src="public/bgimages/MMI.webp" alt="Image du département MMI de Montbéliard">
-            </div>
-            <h1 class="intropage__titre">À-propos</h1>
-            <p  class="introduction txtapropos">Ce site a été créé par Lilian Chesneau, un étudiant de BUT au département MMI de l’IUT de Belfort – Montbéliard, durant le premier semestre de sa formation pendant l’année 2021. Ce projet est un exercice pédagogique a été réalisé dans le cadre de la formation.</p>
-        </section>
-
-        <div class="main">
-            <p class="txtapropos">J’ai proposé la découverte de l’idéologie féministe à travers le travail des femmes au sein de la société : leur traitement, leurs actions faces aux inégalités, et le développement mondial de la lutte contre le sexisme et la ségrégation. Dans une définition d’éducation et de découvertes, j’espère que vous avez pu vous documenter sur le féminisme et que le site vous a aider à en comprendre plus sur ce mouvement.</p>
-        </div>
-
-        <div class="contact">
-            <p class="txtapropos">Si vous souhaiter me contacter, vous pouvez vous rendre sur la page de contact avec le boutton ci-dessous</p>
-            <div class="navarticle">
-                <div class="navarticle__nav">
-                    <a class="navarticle__boutontxt" href="pagedecontact.html">Page de contact</a>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <nav class="footertop">
-            <a class="footer__contact" href="apropos.html">
-                <img class="footer__contact--icone" src="public/icones/Contact.svg" alt="Icône de contact">
-                <div class="footertxt">
-                    <p class="footer__contact--nom" >Lilian Chesneau</p>
-                    <p  class="footer__contact--mail" > <em>lilian.chesneau@edu.univ-fcomte.fr</em></p>
-                </div>
-            </a>
-        </nav>
-        
-        <p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au <strong>département MMi de Montbéliard</strong></p>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Women's Work - À-propos</title>
+		<link rel="stylesheet" href="src/css/style.css">
+		<script src="//unpkg.com/alpinejs" defer></script>
+		<script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="noscroll bye">
+				<div class="headertop">
+					<div class="header__logo">
+						<a href="/index.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<a class="header__titresite--link" href="/index.html">
+							<p class="header__titresite--txt" > Women's Work</p>
+						</a>
+					</div>
+					<button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
+					</button>
+				</div>
+			</div>
+			<nav class="menu">
+				<div class="headertop headermenu">
+					<div class="header__logo">
+						<a href="/index.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<a class="header__titresite--link" href="/index.html">
+							<p class="header__titresite--txt txtmenutitre" > Menu</p>
+						</a>
+					</div>
+					<button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Icône de fermeture">
+					</button>
+				</div>
+				<div class="menu__langue">
+					<a class="menu__langue--fr" href="index.html">
+						<img class="langue__bouton1" src="public/icones/LangFR.svg" alt="Logo de changement de langue Français">
+					</a>
+					<a class="menu__langue--en" href="accueilEN.html">
+						<img class="langue__bouton2" src="public/icones/LangEN.svg" alt="Logo de changement de langue Anglais">
+					</a>
+				</div>
+				<ul class="menu__liste">
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article1.html">Féminisme, idéologie et travail</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article2.html">Travail genré et inégalité salariale</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article3.html">Femmes de pouvoir, un travail mondial</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="galerie.html">Galerie</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="lexique.html">Lexique</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="apropos.html">À-propos</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="autresprojets.html">Autres projets</a> </li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="intropage">
+				<div class="duotone">
+					<img class="intropage__image" src="public/bgimages/MMI.webp" alt="Image du département MMI de Montbéliard">
+				</div>
+				<h1 class="intropage__titre">À-propos</h1>
+				<p class="introduction txtapropos">Ce site a été créé par Lilian Chesneau, un étudiant de BUT au département MMI de l’IUT de Belfort – Montbéliard, durant le premier semestre de sa formation pendant l’année 2021. Ce projet est un exercice pédagogique a été réalisé dans le cadre de la formation.</p>
+			</section>
+			<div class="main">
+				<p class="txtapropos">J’ai proposé la découverte de l’idéologie féministe à travers le travail des femmes au sein de la société : leur traitement, leurs actions faces aux inégalités, et le développement mondial de la lutte contre le sexisme et la ségrégation. Dans une définition d’éducation et de découvertes, j’espère que vous avez pu vous documenter sur le féminisme et que le site vous a aider à en comprendre plus sur ce mouvement.</p>
+			</div>
+			<div class="contact">
+				<p class="txtapropos">Si vous souhaiter me contacter, vous pouvez vous rendre sur la page de contact avec le boutton ci-dessous</p>
+				<div class="navarticle">
+					<div class="navarticle__nav"> <a class="navarticle__boutontxt" href="pagedecontact.html">Page de contact</a> </div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<nav class="footertop">
+				<a class="footer__contact" href="apropos.html">
+					<img class="footer__contact--icone" src="public/icones/Contact.svg" alt="Icône de contact">
+					<div class="footertxt">
+						<p class="footer__contact--nom" >Lilian Chesneau</p>
+						<p class="footer__contact--mail" > <em>lilian.chesneau@edu.univ-fcomte.fr</em></p>
+					</div>
+				</a>
+			</nav>
+			<p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au <strong>département MMi de Montbéliard</strong></p>
+		</footer>
+	</body>
 </html>

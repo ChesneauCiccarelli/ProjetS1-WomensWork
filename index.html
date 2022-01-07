@@ -1,170 +1,139 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Women's Work</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <script src="//unpkg.com/alpinejs" defer></script>
-    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
-	<script src="https://animejs.com/lib/anime.min.js"></script>
-</head>
-
-<body>
-    <header class="header">
-        <div class="noscroll bye">
-            <div class="headertop">
-                <div class="header__logo">
-                    <a href="/index.html">
-                        <img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
-                    </a>
-                </div>
-
-                <div class="header__titresite">
-                    <a class="header__titresite--link" href="/index.html">
-                        <p  class="header__titresite--txt" > Women's Work</p>
-                    </a>
-                </div>
-
-                <button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
-                    <img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
-                </button>
-            </div>
-        </div>
-    
-
-        <nav class="menu">
-            <div class="headertop headermenu">
-                <div class="header__logo">
-                    <a href="/index.html">
-                        <img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
-                    </a>
-                </div>
-    
-                <div class="header__titresite">
-                    <a class="header__titresite--link" href="/index.html">
-                        <p  class="header__titresite--txt txtmenutitre" > Menu</p>
-                    </a>
-                </div>
-    
-                <button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
-                    <img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Icône de fermeture">
-                </button>
-            </div>
-
-            <div class="menu__langue">
-                <a class="menu__langue--fr" href="index.html">
-                    <img class="langue__bouton1" src="public/icones/LangFR.svg" alt="Logo de changement de langue Français">
-                </a>
-                <a class="menu__langue--en" href="accueilEN.html">
-                    <img class="langue__bouton2" src="public/icones/LangEN.svg" alt="Logo de changement de langue Anglais">
-                </a>
-            </div>
-
-            <ul class="menu__liste">
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article1.html">Féminisme, idéologie et travail</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article2.html">Travail genré et inégalité salariale</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article3.html">Femmes de pouvoir, un travail mondial</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="galerie.html">Galerie</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="lexique.html">Lexique</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="apropos.html">À-propos</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="autresprojets.html">Autres projets</a>
-                </li>                
-            </ul>
-        </nav>        
-    </header>
-
-    <main>
-        <section>
-            <h1 class="accueil__titre">Women's Work</h1>
-            <p class="acceuil__soustitre">L’émancipation du travail des femmes </p>
-            <div class="duotone duovertical">
-                <img class="imgverticale duotone bureau" src="public/bgimages/Ordinateur.webp" alt="Photographie de bureau">
-            </div>
-            <p class="introduction">Bienvenue sur le site Women’s Work. Apprenez en plus sur l’émancipation du travail des femmes, la notion de parité et sur l’égalité salariale. A travers de différents articles présentant différentes figures du féminisme, découvrez l’histoire de l’idéologie féminisme et ses revendications.</p>
-            <div class="videocontainer">
-                <h2 class="videocontainer__videotitle">Les français et le féminisme</h2>
-                <p class="videocontainer__txt">Découvrons le ressenti des français sur la situation de l'égalité entre les hommes et les femmes en vidéo. Demandons leur si ils ont des idées sur comment améliorer l'éducation des français sur la cause de l'égalité entre les hommes et les femmes.</p>
-                <video class="video" controls src="public/video/microtrottoir.MP4"></video>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="parlonsfem">Parlons féminisme</h2>
-            <p>Voyagez sur les différents articles disponible pour découvrir l'idéologie féministe et son histoire à travers le travail genré des femmes et les inégalités sur le milieu professionnel.</p>
-            <div class="tweet border-gradient border-gradient-purple">
-                <a class="boutonarticle" href="article1.html">
-                    <div class="duotone">
-                        <img class="boutonarticle__image duotone" src="public/bgimages/FemmesUsine.webp" alt="Image des femmes travaillant dans les usines d'armement durant la Seconde Guerre Mondiale">
-                    </div>
-                    <h2 class="boutonarticle__texte">Féminisme, du début de l'idéologie à l'émancipation du travail des femmes</h2>
-                </a>
-            </div>
-            <p class="introarticle">Au cœur d’une idéologie complexe, découvrez l’émergence du féminisme à travers l’histoire d’Olympe de Gouges et comprenez l’histoire du travail en tant que femme à travers le XXème siècle.</p>
-            <div class="duotone duovertical">
-                <img class="imgverticale duotone img1" src="public/bgimages/GRLPWR.webp" alt="Image Girl Power">
-            </div> 
-        </section>
-
-        <section>
-            <div class="tweet border-gradient border-gradient-purple pourpadding">
-                <a class="boutonarticle" href="article2.html">
-                    <div class="duotone">
-                        <img class="boutonarticle__image duotone" src="public/bgimages/Bureau.webp" alt="Carricature de l'inégélité salariale">
-                    </div>
-                    <h2 class="boutonarticle__texte">Du travail genré à l'inégalité salariale</h2>
-                </a>
-            </div>
-            <p class="introarticle">À travers notre pays développé, découvrez le mythe de la parité et de l’égalité salariale. A travers des chiffres que vous ne pensez surement pas possible, déchiffrez l’idéologie de l’égalité homme – femme.</p>
-            <div class="duotone duovertical">
-                <img class="imgverticale duotone img1" src="public/bgimages/Oppression.webp" alt="Image d'une tête de poupée serrée dans la main d'un homme">
-            </div> 
-        </section>
-
-        <section>
-            <div class="tweet border-gradient border-gradient-purple pourpadding">
-                <a class="boutonarticle" href="article3.html">
-                    <div class="duotone">
-                        <img class="boutonarticle__image duotone" src="public/bgimages/Manifestation.webp" alt="Image d'une Manifestation">
-                    </div>
-                    <h2 class="boutonarticle__texte">Femmes de pouvoir, un travail mondial</h2>
-                </a>
-            </div>
-            <p class="introarticle">Percevez la signification européenne et mondiale du mouvement féministe pour l’égalité totale à travers les chiffres et l’œuvre de Sylvie Schweitzer : "Femmes de pouvoir : une histoire de l'égalité professionnelle en Europe (XIXe-XXe siècle)".</p>
-            <div class="duotone duovertical">
-                <img class="imgverticale duotone img1" src="public/bgimages/WonderWoman.webp" alt="Image d'une figurine de Wonder Woman">
-            </div> 
-        </section>
-    </main>
-
-    <footer class="footer accfooter">
-        <nav class="footertop">
-            <a class="footer__contact" href="apropos.html">
-                <img class="footer__contact--icone" src="public/icones/Contact.svg" alt="Icône de contact">
-                <div class="footertxt">
-                    <p class="footer__contact--nom" >Lilian Chesneau</p>
-                    <p  class="footer__contact--mail" > <em>lilian.chesneau@edu.univ-fcomte.fr</em></p>
-                </div>
-            </a>
-        </nav>
-        
-        <p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au <strong>département MMi de Montbéliard</strong></p>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Women's Work</title>
+		<link rel="stylesheet" href="src/css/style.css">
+		<script src="//unpkg.com/alpinejs" defer></script>
+		<script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="noscroll bye">
+				<div class="headertop">
+					<div class="header__logo">
+						<a href="/index.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<a class="header__titresite--link" href="/index.html">
+							<p class="header__titresite--txt" > Women's Work</p>
+						</a>
+					</div>
+					<button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
+					</button>
+				</div>
+			</div>
+			<nav class="menu">
+				<div class="headertop headermenu">
+					<div class="header__logo">
+						<a href="/index.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<a class="header__titresite--link" href="/index.html">
+							<p class="header__titresite--txt txtmenutitre" > Menu</p>
+						</a>
+					</div>
+					<button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Icône de fermeture">
+					</button>
+				</div>
+				<div class="menu__langue">
+					<a class="menu__langue--fr" href="index.html">
+						<img class="langue__bouton1" src="public/icones/LangFR.svg" alt="Logo de changement de langue Français">
+					</a>
+					<a class="menu__langue--en" href="accueilEN.html">
+						<img class="langue__bouton2" src="public/icones/LangEN.svg" alt="Logo de changement de langue Anglais">
+					</a>
+				</div>
+				<ul class="menu__liste">
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article1.html">Féminisme, idéologie et travail</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article2.html">Travail genré et inégalité salariale</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article3.html">Femmes de pouvoir, un travail mondial</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="galerie.html">Galerie</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="lexique.html">Lexique</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="apropos.html">À-propos</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="autresprojets.html">Autres projets</a> </li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<h1 class="accueil__titre">Women's Work</h1>
+				<p class="acceuil__soustitre">L’émancipation du travail des femmes </p>
+				<div class="duotone duovertical">
+					<img class="imgverticale duotone bureau" src="public/bgimages/Ordinateur.webp" alt="Photographie de bureau">
+				</div>
+				<p class="introduction">Bienvenue sur le site Women’s Work. Apprenez en plus sur l’émancipation du travail des femmes, la notion de parité et sur l’égalité salariale. A travers de différents articles présentant différentes figures du féminisme, découvrez l’histoire de l’idéologie féminisme et ses revendications.</p>
+				<div class="videocontainer">
+					<h2 class="videocontainer__videotitle">Les français et le féminisme</h2>
+					<p class="videocontainer__txt">Découvrons le ressenti des français sur la situation de l'égalité entre les hommes et les femmes en vidéo. Demandons leur si ils ont des idées sur comment améliorer l'éducation des français sur la cause de l'égalité entre les hommes et les femmes.</p>
+					<video class="video" controls src="public/video/microtrottoir.MP4"></video>
+				</div>
+			</section>
+			<section>
+				<h2 class="parlonsfem">Parlons féminisme</h2>
+				<p>Voyagez sur les différents articles disponible pour découvrir l'idéologie féministe et son histoire à travers le travail genré des femmes et les inégalités sur le milieu professionnel.</p>
+				<div class="tweet border-gradient border-gradient-purple">
+					<a class="boutonarticle" href="article1.html">
+						<div class="duotone">
+							<img class="boutonarticle__image duotone" src="public/bgimages/FemmesUsine.webp" alt="Image des femmes travaillant dans les usines d'armement durant la Seconde Guerre Mondiale">
+						</div>
+						<h2 class="boutonarticle__texte">Féminisme, du début de l'idéologie à l'émancipation du travail des femmes</h2>
+					</a>
+				</div>
+				<p class="introarticle">Au cœur d’une idéologie complexe, découvrez l’émergence du féminisme à travers l’histoire d’Olympe de Gouges et comprenez l’histoire du travail en tant que femme à travers le XXème siècle.</p>
+				<div class="duotone duovertical">
+					<img class="imgverticale duotone img1" src="public/bgimages/GRLPWR.webp" alt="Image Girl Power">
+				</div>
+			</section>
+			<section>
+				<div class="tweet border-gradient border-gradient-purple pourpadding">
+					<a class="boutonarticle" href="article2.html">
+						<div class="duotone">
+							<img class="boutonarticle__image duotone" src="public/bgimages/Bureau.webp" alt="Carricature de l'inégélité salariale">
+						</div>
+						<h2 class="boutonarticle__texte">Du travail genré à l'inégalité salariale</h2>
+					</a>
+				</div>
+				<p class="introarticle">À travers notre pays développé, découvrez le mythe de la parité et de l’égalité salariale. A travers des chiffres que vous ne pensez surement pas possible, déchiffrez l’idéologie de l’égalité homme – femme.</p>
+				<div class="duotone duovertical">
+					<img class="imgverticale duotone img1" src="public/bgimages/Oppression.webp" alt="Image d'une tête de poupée serrée dans la main d'un homme">
+				</div>
+			</section>
+			<section>
+				<div class="tweet border-gradient border-gradient-purple pourpadding">
+					<a class="boutonarticle" href="article3.html">
+						<div class="duotone">
+							<img class="boutonarticle__image duotone" src="public/bgimages/Manifestation.webp" alt="Image d'une Manifestation">
+						</div>
+						<h2 class="boutonarticle__texte">Femmes de pouvoir, un travail mondial</h2>
+					</a>
+				</div>
+				<p class="introarticle">Percevez la signification européenne et mondiale du mouvement féministe pour l’égalité totale à travers les chiffres et l’œuvre de Sylvie Schweitzer : "Femmes de pouvoir : une histoire de l'égalité professionnelle en Europe (XIXe-XXe siècle)".</p>
+				<div class="duotone duovertical">
+					<img class="imgverticale duotone img1" src="public/bgimages/WonderWoman.webp" alt="Image d'une figurine de Wonder Woman">
+				</div>
+			</section>
+		</main>
+		<footer class="footer accfooter">
+			<nav class="footertop">
+				<a class="footer__contact" href="apropos.html">
+					<img class="footer__contact--icone" src="public/icones/Contact.svg" alt="Icône de contact">
+					<div class="footertxt">
+						<p class="footer__contact--nom" >Lilian Chesneau</p>
+						<p class="footer__contact--mail" > <em>lilian.chesneau@edu.univ-fcomte.fr</em></p>
+					</div>
+				</a>
+			</nav>
+			<p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au <strong>département MMi de Montbéliard</strong></p>
+		</footer>
+	</body>
 </html>

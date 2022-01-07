@@ -1,545 +1,505 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Women's Work - Galerie</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <script src="//unpkg.com/alpinejs" defer></script>
-    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
-	<script src="https://animejs.com/lib/anime.min.js"></script>
-</head>
-
-<body>
-    <header class="header">
-        <div class="noscroll bye">
-            <div class="headertop">
-                <div class="header__logo">
-                    <a href="/index.html">
-                        <img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
-                    </a>
-                </div>
-
-                <div class="header__titresite">
-                    <a class="header__titresite--link" href="/index.html">
-                        <p  class="header__titresite--txt" > Women's Work</p>
-                    </a>
-                </div>
-
-                <button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
-                    <img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
-                </button>
-            </div>
-        </div>
-    
-
-        <nav class="menu">
-            <div class="headertop headermenu">
-                <div class="header__logo">
-                    <a href="/index.html">
-                        <img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
-                    </a>
-                </div>
-    
-                <div class="header__titresite">
-                    <a class="header__titresite--link" href="/index.html">
-                        <p  class="header__titresite--txt txtmenutitre" > Menu</p>
-                    </a>
-                </div>
-    
-                <button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
-                    <img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Icône de fermeture">
-                </button>
-            </div>
-
-            <div class="menu__langue">
-                <a class="menu__langue--fr" href="index.html">
-                    <img class="langue__bouton1" src="public/icones/LangFR.svg" alt="Logo de changement de langue Français">
-                </a>
-                <a class="menu__langue--en" href="accueilEN.html">
-                    <img class="langue__bouton2" src="public/icones/LangEN.svg" alt="Logo de changement de langue Anglais">
-                </a>
-            </div>
-
-            <ul class="menu__liste">
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article1.html">Féminisme, idéologie et travail</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article2.html">Travail genré et inégalité salariale</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article3.html">Femmes de pouvoir, un travail mondial</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="galerie.html">Galerie</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="lexique.html">Lexique</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="apropos.html">À-propos</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="autresprojets.html">Autres projets</a>
-                </li>                
-            </ul>
-        </nav>        
-    </header>
-
-    <main>
-        <section class="intropage">
-            <div class="duotone">
-                <img class="intropage__image duotone" src="public/bgimages/Column.webp" alt="Image de colones">
-            </div>
-            <h1 class="intropage__titre">Galerie</h1>
-            <p  class="introduction txtintro" >Ici vous pouvez découvrir d’autres figures qui ont révolutionnée le monde et l’idéologie féministe. N’hésitez pas à en apprendre plus sur ces histoires qui ont bouleversés les mentalités. Mais tout d’abord, des dates importantes sur l’idéologie.</p>
-        </section>
-
-        <section class="frisechronologique">
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">1791</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Olympe de Gouges qui publie la « Déclaration des droits de la femme et de la citoyenne ».</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">29 Avril 1945</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Les femmes votent pour la première fois en France.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">27 Octobre 1946</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">L’égalité entre hommes et femmes est inscrite dans le Préambule de la Constitution.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">Novembre 1947</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Première femme ministre en France, Germaine Poinso-Chapuis.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">13 Juillet 1965</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Les femmes peuvent exercer une activité professionnelle sans le consentement de leur mari.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">28 Décembre 1967</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Autorisation de la contraception grâce à la loi Neuwirth.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">4 Juin 1970</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">La loi relative à l’autorité parentale conjointe modifie le code civil et substitue l’autorité parentale conjointe à la puissance paternelle.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">22 Décembre 1972</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Une loi pose le principe de l’égalité de rémunération entre les hommes et les femmes.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">Juillet 1974</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Création du secrétariat d'État à la condition féminine.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">17 Janvier 1975</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Promulgation de la loi autorisant l’interruption volontaire de grossesse (IVG), la loi Veil.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">31 Décembre 1979</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Loi sur l’IVG rendant définitives les dispositions de loi de 1975 et supprimant notamment certaines entraves à la réalisation de l’IVG, concernant les modalités d’accord du médecin et l’accueil dans les services hospitaliers.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">23 Décembre 1980</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Le viol est reconnu comme un crime.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">8 Mars 1982</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Première journée nationale des femmes.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">13 Juillet 1983</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">La loi Roudy établit l’égalité professionnelle entre les femmes et les hommes.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">4 Juillet 2001</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">La loi n° 2001-588 fait passer le délai légal de recours à l’IVG de 10 à 12 semaines.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">24 Mars 2005</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt">Présentation en Conseil des ministres d’un projet de loi relatif à l’égalité salariale entre les femmes et les hommes.</p>
-                    <div class="partiefrise__decorfrise"></div>
-            </div>
-            <div class="partiefrise">
-                <div class="friselogodatediv">
-                    <img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
-                    <h2 class="partiefrise__date">25 Mars 2013</h2>
-                </div>
-                <div class="frisetxtdiv"></div>
-                    <p class="partiefrise__txt lastdate">Un décret établit le remboursement à 100% de l'IVG ainsi que la gratuité des contraceptifs médicaux pour les mineures âgées de plus de 15 ans.</p>
-            </div>
-        </section>
-
-        <section class="galeriefeminisme">
-            <h2 class="sous-titre">Figures du féminisme</h2>
-            
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/OlympeDeGouges.webp" alt="Portrait d'Olympe de Gouges">
-                    <h3 class="portrait__nom">Olympe de Gouges</h3>
-                    <p class="portrait__date">(1748 - 1793)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <ul>
-                        <li class="ligalerie">Femme de lettres française, devenue femme politique.</li>
-                        <li class="ligalerie">Considérée comme une des pionnières du féminisme grâce à sa publication en 1791 de la Déclaration des droits de la femme et de la citoyenne.</li>
-                        <li class="ligalerie">Morte guillotinée à Paris le 3 novembre 1793.</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Olympe_de_Gouges" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/MarieCurie.webp" alt="Portrait de Marie Curie">
-                    <h3 class="portrait__nom">Marie Curie</h3>
-                    <p class="portrait__date portrait__date--variant">(1867 - 1934)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <ul>
-                        <li class="ligalerie">Physicienne et chimiste polonaise.</li>
-                        <li class="ligalerie">Remporte le prix Nobel de physique, avec Pierre Curie et Henri Becquerel pour leurs recherches sur les radiations en 1903.</li>
-                        <li class="ligalerie">Première femme à avoir reçu le prix Nobel et la seule femme à en avoir reçu deux.</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Marie_Curie" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/RosaParks.webp" alt="Portrait de Rosa Parks">
-                    <h3 class="portrait__nom">Rosa Parks</h3>
-                    <p class="portrait__date portrait__date--variant">(1913 - 2005)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <ul>
-                        <li class="ligalerie">Femme afro-américaine / Figure emblématique de la lutte contre la ségrégation raciale aux États-Unis.</li>
-                        <li class="ligalerie">A refusé de céder sa place à un passager blanc dans l'autobus.</li>
-                        <li class="ligalerie">Le 13 novembre 1956, la Cour suprême des États-Unis casse les lois ségrégationnistes dans les bus, les déclarant anticonstitutionnelles.</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Rosa_Parks" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/SimoneVeil.webp" alt="Portrait de Simone Veil">
-                    <h3 class="portrait__nom">Simone Veil</h3>
-                    <p class="portrait__date portrait__date--variant">(1927 - 2017)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <ul>
-                        <li class="ligalerie">Déportée à Auschwitz à l'âge de 16 ans, durant la Shoah, elle y perds toute sa famille.</li>
-                        <li class="ligalerie">Nommée ministre de la Santé par le président Valéry Giscard d'Estaing.</li>
-                        <li class="ligalerie">Faire adopter la loi dépénalisant le recours par une femme à l'interruption volontaire de grossesse (IVG).</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Simone_Veil" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/SimoneDeBeauvoir.webp" alt="Portrait de Simone De Beauvoir">
-                    <h3 class="portrait__nom">Simone De Beauvoir</h3>
-                    <p class="portrait__date">(1908 - 1986)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <ul>
-                        <li class="ligalerie">Philosophe, romancière, mémorialiste et essayiste française.</li>
-                        <li class="ligalerie">Théoricienne importante du féminisme : a participé au mouvement de libération des femmes dans les années 1970.</li>
-                        <li class="ligalerie">« On ne naît pas femme : on le devient. »</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Simone_de_Beauvoir" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/RebeccaAmsellem.webp" alt="Portrait de Rebecca Amsellem">
-                    <h3 class="portrait__nom">Rebecca Amsellem</h3>
-                    <p class="portrait__date">(1988)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <ul>
-                        <li class="ligalerie">Entrepreneuse, économiste et militante féministe franco-canadienne.</li>
-                        <li class="ligalerie">Créatrice de la newsletter féministe « Les Glorieuses »</li>
-                        <li class="ligalerie">Créatrice du mouvement #5novembre16h47</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Rebecca_Amsellem" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/MadeleineGuilbert.webp" alt="Portrait de Madeleine Guilbert">
-                    <h3 class="portrait__nom">Madeleine Guilbert</h3>
-                    <p class="portrait__date">(1910 - 2006)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <ul>
-                        <li class="ligalerie">Sociologue du travail, militante féministe et syndicaliste française.</li>
-                        <li class="ligalerie">Participe à la Résistance durant la Seconde Guerre Mondiale.</li>
-                        <li class="ligalerie">Publie trois articles novateurs dans La Revue Française du Travail concernant les conditions de travail des femmes.</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Madeleine_Guilbert" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/OprahWinfrey.webp" alt="Portrait d' Oprah Winfrey">
-                    <h3 class="portrait__nom">Oprah Winfrey</h3>
-                    <p class="portrait__date">(1957)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <ul>
-                        <li class="ligalerie">Animatrice et productrice de télévision américaine.</li>
-                        <li class="ligalerie">Aide les filles à s’affirmer et à revendiquer ce qu’elles sont.</li>
-                        <li class="ligalerie">Lance “L’Oprah Winfrey Leadership Academy for Girls“, en Afrique du Sud. Son organisation instruit les jeunes filles défavorisées de 8 à 12 ans.</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Oprah_Winfrey" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/TaranaBurke.webp" alt="Portrait de Tarana Burke">
-                    <h3 class="portrait__nom">Tarana Burke</h3>
-                    <p class="portrait__date">(1973)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <ul>
-                        <li class="ligalerie">Directrice des programmes au Girls for Gender Equity.</li>
-                        <li class="ligalerie">A lancée le mouvement #MeToo.</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Tarana_Burke" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="figuredufeminisme">
-                <div class="portrait">
-                    <img class="portrait__img" src="public/galerie/DenisMuckwege.webp" alt="Portrait de Denis Mukwege">
-                    <h3 class="portrait__nom">Denis Mukwegey</h3>
-                    <p class="portrait__date">(1955)</p>
-                </div>
-                <div class="figuredufeminisme__txt">
-                    <p class="galerietxtspecial">Il ne faut pas forcément être une femme pour être féministe.</p>
-                    <ul>
-                        <li class="ligalerie">Fondateur de l’hôpital de Panzi. Il a permis à plus de 40 000 femmes victimes de violences extrêmes de s’en sortir grâce aux soins médicaux mais aussi à l’éducation, l’insertion sociale, l’accompagnement judiciaire et d’autres services encore.</li>
-                        <li class="ligalerie">A reçu le prix Nobel de la Paix pour avoir aidé des milliers de femmes victimes de viols à se reconstruire physiquement et moralement.</li>
-                    </ul>
-                </div>
-                <a href="https://fr.wikipedia.org/wiki/Denis_Mukwege" class="buttonmore">
-                    <div class="button-row">
-                        <div class="part-icon">
-                            <div class="image">
-                                <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                            </div>
-                        </div>
-                        <div class="part-text">
-                            <p class="label">Découvrir plus</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <nav class="footertop">
-            <a class="footer__contact" href="apropos.html">
-                <img class="footer__contact--icone" src="public/icones/Contact.svg" alt="Icône de contact">
-                <div class="footertxt">
-                    <p class="footer__contact--nom" >Lilian Chesneau</p>
-                    <p  class="footer__contact--mail" > <em>lilian.chesneau@edu.univ-fcomte.fr</em></p>
-                </div>
-            </a>
-        </nav>
-        
-        <p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au <strong>département MMi de Montbéliard</strong></p>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Women's Work - Galerie</title>
+		<link rel="stylesheet" href="src/css/style.css">
+		<script src="//unpkg.com/alpinejs" defer></script>
+		<script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="noscroll bye">
+				<div class="headertop">
+					<div class="header__logo">
+						<a href="/index.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<a class="header__titresite--link" href="/index.html">
+							<p class="header__titresite--txt" > Women's Work</p>
+						</a>
+					</div>
+					<button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
+					</button>
+				</div>
+			</div>
+			<nav class="menu">
+				<div class="headertop headermenu">
+					<div class="header__logo">
+						<a href="/index.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<a class="header__titresite--link" href="/index.html">
+							<p class="header__titresite--txt txtmenutitre" > Menu</p>
+						</a>
+					</div>
+					<button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Icône de fermeture">
+					</button>
+				</div>
+				<div class="menu__langue">
+					<a class="menu__langue--fr" href="index.html">
+						<img class="langue__bouton1" src="public/icones/LangFR.svg" alt="Logo de changement de langue Français">
+					</a>
+					<a class="menu__langue--en" href="accueilEN.html">
+						<img class="langue__bouton2" src="public/icones/LangEN.svg" alt="Logo de changement de langue Anglais">
+					</a>
+				</div>
+				<ul class="menu__liste">
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article1.html">Féminisme, idéologie et travail</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article2.html">Travail genré et inégalité salariale</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article3.html">Femmes de pouvoir, un travail mondial</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="galerie.html">Galerie</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="lexique.html">Lexique</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="apropos.html">À-propos</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="autresprojets.html">Autres projets</a> </li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="intropage">
+				<div class="duotone">
+					<img class="intropage__image duotone" src="public/bgimages/Column.webp" alt="Image de colones">
+				</div>
+				<h1 class="intropage__titre">Galerie</h1>
+				<p class="introduction txtintro" >Ici vous pouvez découvrir d’autres figures qui ont révolutionnée le monde et l’idéologie féministe. N’hésitez pas à en apprendre plus sur ces histoires qui ont bouleversés les mentalités. Mais tout d’abord, des dates importantes sur l’idéologie.</p>
+			</section>
+			<section class="frisechronologique">
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">1791</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Olympe de Gouges qui publie la « Déclaration des droits de la femme et de la citoyenne ».</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">29 Avril 1945</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Les femmes votent pour la première fois en France.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">27 Octobre 1946</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">L’égalité entre hommes et femmes est inscrite dans le Préambule de la Constitution.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">Novembre 1947</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Première femme ministre en France, Germaine Poinso-Chapuis.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">13 Juillet 1965</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Les femmes peuvent exercer une activité professionnelle sans le consentement de leur mari.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">28 Décembre 1967</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Autorisation de la contraception grâce à la loi Neuwirth.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">4 Juin 1970</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">La loi relative à l’autorité parentale conjointe modifie le code civil et substitue l’autorité parentale conjointe à la puissance paternelle.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">22 Décembre 1972</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Une loi pose le principe de l’égalité de rémunération entre les hommes et les femmes.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">Juillet 1974</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Création du secrétariat d'État à la condition féminine.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">17 Janvier 1975</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Promulgation de la loi autorisant l’interruption volontaire de grossesse (IVG), la loi Veil.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">31 Décembre 1979</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Loi sur l’IVG rendant définitives les dispositions de loi de 1975 et supprimant notamment certaines entraves à la réalisation de l’IVG, concernant les modalités d’accord du médecin et l’accueil dans les services hospitaliers.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">23 Décembre 1980</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Le viol est reconnu comme un crime.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">8 Mars 1982</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Première journée nationale des femmes.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">13 Juillet 1983</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">La loi Roudy établit l’égalité professionnelle entre les femmes et les hommes.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">4 Juillet 2001</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">La loi n° 2001-588 fait passer le délai légal de recours à l’IVG de 10 à 12 semaines.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">24 Mars 2005</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Présentation en Conseil des ministres d’un projet de loi relatif à l’égalité salariale entre les femmes et les hommes.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icone de la frise">
+						<h2 class="partiefrise__date">25 Mars 2013</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt lastdate">Un décret établit le remboursement à 100% de l'IVG ainsi que la gratuité des contraceptifs médicaux pour les mineures âgées de plus de 15 ans.</p>
+				</div>
+			</section>
+			<section class="galeriefeminisme">
+				<h2 class="sous-titre">Figures du féminisme</h2>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/OlympeDeGouges.webp" alt="Portrait d'Olympe de Gouges">
+						<h3 class="portrait__nom">Olympe de Gouges</h3>
+						<p class="portrait__date">(1748 - 1793)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Femme de lettres française, devenue femme politique.</li>
+							<li class="ligalerie">Considérée comme une des pionnières du féminisme grâce à sa publication en 1791 de la Déclaration des droits de la femme et de la citoyenne.</li>
+							<li class="ligalerie">Morte guillotinée à Paris le 3 novembre 1793.</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Olympe_de_Gouges" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/MarieCurie.webp" alt="Portrait de Marie Curie">
+						<h3 class="portrait__nom">Marie Curie</h3>
+						<p class="portrait__date portrait__date--variant">(1867 - 1934)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Physicienne et chimiste polonaise.</li>
+							<li class="ligalerie">Remporte le prix Nobel de physique, avec Pierre Curie et Henri Becquerel pour leurs recherches sur les radiations en 1903.</li>
+							<li class="ligalerie">Première femme à avoir reçu le prix Nobel et la seule femme à en avoir reçu deux.</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Marie_Curie" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/RosaParks.webp" alt="Portrait de Rosa Parks">
+						<h3 class="portrait__nom">Rosa Parks</h3>
+						<p class="portrait__date portrait__date--variant">(1913 - 2005)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Femme afro-américaine / Figure emblématique de la lutte contre la ségrégation raciale aux États-Unis.</li>
+							<li class="ligalerie">A refusé de céder sa place à un passager blanc dans l'autobus.</li>
+							<li class="ligalerie">Le 13 novembre 1956, la Cour suprême des États-Unis casse les lois ségrégationnistes dans les bus, les déclarant anticonstitutionnelles.</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Rosa_Parks" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/SimoneVeil.webp" alt="Portrait de Simone Veil">
+						<h3 class="portrait__nom">Simone Veil</h3>
+						<p class="portrait__date portrait__date--variant">(1927 - 2017)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Déportée à Auschwitz à l'âge de 16 ans, durant la Shoah, elle y perds toute sa famille.</li>
+							<li class="ligalerie">Nommée ministre de la Santé par le président Valéry Giscard d'Estaing.</li>
+							<li class="ligalerie">Faire adopter la loi dépénalisant le recours par une femme à l'interruption volontaire de grossesse (IVG).</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Simone_Veil" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/SimoneDeBeauvoir.webp" alt="Portrait de Simone De Beauvoir">
+						<h3 class="portrait__nom">Simone De Beauvoir</h3>
+						<p class="portrait__date">(1908 - 1986)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Philosophe, romancière, mémorialiste et essayiste française.</li>
+							<li class="ligalerie">Théoricienne importante du féminisme : a participé au mouvement de libération des femmes dans les années 1970.</li>
+							<li class="ligalerie">« On ne naît pas femme : on le devient. »</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Simone_de_Beauvoir" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/RebeccaAmsellem.webp" alt="Portrait de Rebecca Amsellem">
+						<h3 class="portrait__nom">Rebecca Amsellem</h3>
+						<p class="portrait__date">(1988)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Entrepreneuse, économiste et militante féministe franco-canadienne.</li>
+							<li class="ligalerie">Créatrice de la newsletter féministe « Les Glorieuses »</li>
+							<li class="ligalerie">Créatrice du mouvement #5novembre16h47</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Rebecca_Amsellem" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/MadeleineGuilbert.webp" alt="Portrait de Madeleine Guilbert">
+						<h3 class="portrait__nom">Madeleine Guilbert</h3>
+						<p class="portrait__date">(1910 - 2006)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Sociologue du travail, militante féministe et syndicaliste française.</li>
+							<li class="ligalerie">Participe à la Résistance durant la Seconde Guerre Mondiale.</li>
+							<li class="ligalerie">Publie trois articles novateurs dans La Revue Française du Travail concernant les conditions de travail des femmes.</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Madeleine_Guilbert" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/OprahWinfrey.webp" alt="Portrait d' Oprah Winfrey">
+						<h3 class="portrait__nom">Oprah Winfrey</h3>
+						<p class="portrait__date">(1957)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Animatrice et productrice de télévision américaine.</li>
+							<li class="ligalerie">Aide les filles à s’affirmer et à revendiquer ce qu’elles sont.</li>
+							<li class="ligalerie">Lance “L’Oprah Winfrey Leadership Academy for Girls“, en Afrique du Sud. Son organisation instruit les jeunes filles défavorisées de 8 à 12 ans.</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Oprah_Winfrey" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/TaranaBurke.webp" alt="Portrait de Tarana Burke">
+						<h3 class="portrait__nom">Tarana Burke</h3>
+						<p class="portrait__date">(1973)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Directrice des programmes au Girls for Gender Equity.</li>
+							<li class="ligalerie">A lancée le mouvement #MeToo.</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Tarana_Burke" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/DenisMuckwege.webp" alt="Portrait de Denis Mukwege">
+						<h3 class="portrait__nom">Denis Mukwegey</h3>
+						<p class="portrait__date">(1955)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<p class="galerietxtspecial">Il ne faut pas forcément être une femme pour être féministe.</p>
+						<ul>
+							<li class="ligalerie">Fondateur de l’hôpital de Panzi. Il a permis à plus de 40 000 femmes victimes de violences extrêmes de s’en sortir grâce aux soins médicaux mais aussi à l’éducation, l’insertion sociale, l’accompagnement judiciaire et d’autres services encore.</li>
+							<li class="ligalerie">A reçu le prix Nobel de la Paix pour avoir aidé des milliers de femmes victimes de viols à se reconstruire physiquement et moralement.</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Denis_Mukwege" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Découvrir plus</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<nav class="footertop">
+				<a class="footer__contact" href="apropos.html">
+					<img class="footer__contact--icone" src="public/icones/Contact.svg" alt="Icône de contact">
+					<div class="footertxt">
+						<p class="footer__contact--nom" >Lilian Chesneau</p>
+						<p class="footer__contact--mail" > <em>lilian.chesneau@edu.univ-fcomte.fr</em></p>
+					</div>
+				</a>
+			</nav>
+			<p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au <strong>département MMi de Montbéliard</strong></p>
+		</footer>
+	</body>
 </html>

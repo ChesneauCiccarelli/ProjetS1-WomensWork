@@ -128,6 +128,12 @@ p.txtdeco {
 .introduction {
     padding-top:var(--esptxt);
 }
+.lastliarticle{
+    padding-bottom: var(--esptxt);
+}
+.spe{
+    padding-bottom: 0;
+}
 
 /*Autres Projets Galerie et Lexique, texte d'introduction*/
 p.txtintro {

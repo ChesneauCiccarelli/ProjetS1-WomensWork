@@ -1,154 +1,124 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Women's Work - Page de contact</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <script src="//unpkg.com/alpinejs" defer></script>
-    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
-	<script src="https://animejs.com/lib/anime.min.js"></script>
-</head>
-
-<body>
-    <header class="header">
-        <div class="noscroll bye">
-            <div class="headertop">
-                <div class="header__logo">
-                    <a href="/index.html">
-                        <img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
-                    </a>
-                </div>
-
-                <div class="header__titresite">
-                    <a class="header__titresite--link" href="/index.html">
-                        <p  class="header__titresite--txt" > Women's Work</p>
-                    </a>
-                </div>
-
-                <button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
-                    <img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
-                </button>
-            </div>
-        </div>
-    
-
-        <nav class="menu">
-            <div class="headertop headermenu">
-                <div class="header__logo">
-                    <a href="/index.html">
-                        <img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
-                    </a>
-                </div>
-    
-                <div class="header__titresite">
-                    <a class="header__titresite--link" href="/index.html">
-                        <p  class="header__titresite--txt txtmenutitre" > Menu</p>
-                    </a>
-                </div>
-    
-                <button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
-                    <img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Icône de fermeture">
-                </button>
-            </div>
-
-            <div class="menu__langue">
-                <a class="menu__langue--fr" href="index.html">
-                    <img class="langue__bouton1" src="public/icones/LangFR.svg" alt="Logo de changement de langue Français">
-                </a>
-                <a class="menu__langue--en" href="accueilEN.html">
-                    <img class="langue__bouton2" src="public/icones/LangEN.svg" alt="Logo de changement de langue Anglais">
-                </a>
-            </div>
-
-            <ul class="menu__liste">
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article1.html">Féminisme, idéologie et travail</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article2.html">Travail genré et inégalité salariale</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="article3.html">Femmes de pouvoir, un travail mondial</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="galerie.html">Galerie</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="lexique.html">Lexique</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="apropos.html">À-propos</a>
-                </li>
-                <li class="menu__liste--item">
-                    <a class="menu__liste--link" href="autresprojets.html">Autres projets</a>
-                </li>                
-            </ul>
-        </nav>        
-    </header>
-
-    <main>
-        <section class="intropage">
-            <div class="duotone">
-                <img class="intropage__image" src="public/bgimages/MMI.webp" alt="Image du département MMI de Montbéliard">
-            </div>
-            <h1 class="intropage__titre">Page de contact</h1>
-            <p  class="introduction txtintro">Si vous souhaitez me poser des questions sur l’idéologie féministe, ce projet ou bien encore ma formation, n’hésitez pas à remplir ce formulaire de contact ci-dessous:</p>
-        </section>
-
-        <form action="#">
-            <div>
-                <label for="Nom">Nom</label>
-                <input type="text" name="Nom" id="Nom">
-            </div>
-            <div>
-                <label for="Prénom">Prénom</label>
-                <input type="text" name="Prénom" id="Prénom">
-            </div>
-            <div>
-                <label for="Email">Couriel</label>
-                <input type="text" name="Email" id="Email">
-            </div>
-            <div>
-                <label class="labeltxt" for="message">Message</label>
-                <textarea id="message" name="message" rows="5"></textarea>
-            </div>
-            <img class="captcha" src="public/icones/Captcha.svg" alt="Image Captcha">
-            <input type="submit" value="Envoyer">
-        </form>
-
-        <div class="bouttonMMI">
-            <p class="MMIbuttonuppertext">Découvrez le site du BUT MMI de Montbéliard.</p>
-            <a href="http://mmimontbeliard.com/" class="buttonmore buttonmoremmi">
-                <div class="button-row">
-                    <div class="part-icon">
-                        <div class="image">
-                            <img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
-                        </div>
-                    </div>
-                    <div class="part-text">
-                        <img src="public/icones/MMIButton.svg" alt="Logo du site MMI">
-                    </div>
-                </div>
-            </a>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <nav class="footertop">
-            <a class="footer__contact" href="apropos.html">
-                <img class="footer__contact--icone" src="public/icones/Contact.svg" alt="Icône de contact">
-                <div class="footertxt">
-                    <p class="footer__contact--nom" >Lilian Chesneau</p>
-                    <p  class="footer__contact--mail" > <em>lilian.chesneau@edu.univ-fcomte.fr</em></p>
-                </div>
-            </a>
-        </nav>
-        
-        <p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au <strong>département MMi de Montbéliard</strong></p>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Women's Work - Page de contact</title>
+		<link rel="stylesheet" href="src/css/style.css">
+		<script src="//unpkg.com/alpinejs" defer></script>
+		<script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="noscroll bye">
+				<div class="headertop">
+					<div class="header__logo">
+						<a href="/index.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<a class="header__titresite--link" href="/index.html">
+							<p class="header__titresite--txt" > Women's Work</p>
+						</a>
+					</div>
+					<button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu" src="public/icones/Menu.svg" alt="Icône du menu">
+					</button>
+				</div>
+			</div>
+			<nav class="menu">
+				<div class="headertop headermenu">
+					<div class="header__logo">
+						<a href="/index.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Logo du Site Women's Work">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<a class="header__titresite--link" href="/index.html">
+							<p class="header__titresite--txt txtmenutitre" > Menu</p>
+						</a>
+					</div>
+					<button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Icône de fermeture">
+					</button>
+				</div>
+				<div class="menu__langue">
+					<a class="menu__langue--fr" href="index.html">
+						<img class="langue__bouton1" src="public/icones/LangFR.svg" alt="Logo de changement de langue Français">
+					</a>
+					<a class="menu__langue--en" href="accueilEN.html">
+						<img class="langue__bouton2" src="public/icones/LangEN.svg" alt="Logo de changement de langue Anglais">
+					</a>
+				</div>
+				<ul class="menu__liste">
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article1.html">Féminisme, idéologie et travail</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article2.html">Travail genré et inégalité salariale</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="article3.html">Femmes de pouvoir, un travail mondial</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="galerie.html">Galerie</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="lexique.html">Lexique</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="apropos.html">À-propos</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="autresprojets.html">Autres projets</a> </li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="intropage">
+				<div class="duotone">
+					<img class="intropage__image" src="public/bgimages/MMI.webp" alt="Image du département MMI de Montbéliard">
+				</div>
+				<h1 class="intropage__titre">Page de contact</h1>
+				<p class="introduction txtintro">Si vous souhaitez me poser des questions sur l’idéologie féministe, ce projet ou bien encore ma formation, n’hésitez pas à remplir ce formulaire de contact ci-dessous:</p>
+			</section>
+			<form action="#">
+				<div>
+					<label for="Nom">Nom</label>
+					<input type="text" name="Nom" id="Nom">
+				</div>
+				<div>
+					<label for="Prénom">Prénom</label>
+					<input type="text" name="Prénom" id="Prénom">
+				</div>
+				<div>
+					<label for="Email">Couriel</label>
+					<input type="text" name="Email" id="Email">
+				</div>
+				<div>
+					<label class="labeltxt" for="message">Message</label>
+					<textarea id="message" name="message" rows="5"></textarea>
+				</div>
+				<img class="captcha" src="public/icones/Captcha.svg" alt="Image Captcha">
+				<input type="submit" value="Envoyer">
+			</form>
+			<div class="bouttonMMI">
+				<p class="MMIbuttonuppertext">Découvrez le site du BUT MMI de Montbéliard.</p>
+				<a href="http://mmimontbeliard.com/" class="buttonmore buttonmoremmi">
+					<div class="button-row">
+						<div class="part-icon">
+							<div class="image">
+								<img src="public/icones/FlecheDroite.svg" alt="Icône flèche de Droite">
+							</div>
+						</div>
+						<div class="part-text">
+							<img src="public/icones/MMIButton.svg" alt="Logo du site MMI">
+						</div>
+					</div>
+				</a>
+			</div>
+		</main>
+		<footer class="footer">
+			<nav class="footertop">
+				<a class="footer__contact" href="apropos.html">
+					<img class="footer__contact--icone" src="public/icones/Contact.svg" alt="Icône de contact">
+					<div class="footertxt">
+						<p class="footer__contact--nom" >Lilian Chesneau</p>
+						<p class="footer__contact--mail" > <em>lilian.chesneau@edu.univ-fcomte.fr</em></p>
+					</div>
+				</a>
+			</nav>
+			<p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au <strong>département MMi de Montbéliard</strong></p>
+		</footer>
+	</body>
 </html>
