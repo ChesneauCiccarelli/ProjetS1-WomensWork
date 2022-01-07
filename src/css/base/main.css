@@ -143,6 +143,41 @@ p.txtspace {
     padding-bottom:10px;
 }
 
+/*Page 404*/
+.titre404{
+    margin-top: 7rem;
+}
+.introduction404{
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.soustitre404{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.modiftitre404{
+    font-size: 1.3rem;
+}
+.bouttonrecherche404 {
+    width:100%;
+    background-color:rgba(109,70,187,0.4);
+    color:var(--bleu-fonce);
+    font-family:var(--font-button);
+    font-size:var(--bouttons);
+    padding:14px 20px;
+    margin:8px 0;
+    margin-bottom:20px;
+    margin-top:15px;
+    border:none;
+    border-radius:12px;
+    box-shadow:1px 1px 1px rgba(109,70,187,1);
+}
+div.button404{
+    margin-bottom: 10px;
+}
+
 /*Suppression des styles*/
 .menu__liste {
     list-style:none;

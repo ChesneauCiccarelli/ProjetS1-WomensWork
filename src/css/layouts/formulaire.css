@@ -35,7 +35,6 @@ input[type=text],select {
     border:1px solid rgba(249,149,237,1);
     box-shadow:1px 1px 1px rgba(109,70,187,1);
 }
-    
 input[type=submit] {
     width:100%;
     background-color:rgba(109,70,187,0.4);
@@ -49,8 +48,7 @@ input[type=submit] {
     border:none;
     border-radius:12px;
     box-shadow:1px 1px 1px rgba(109,70,187,1);
-}
-    
+} 
 .captcha {
     display:block;
     margin:auto;
