@@ -7,111 +7,6 @@
     text-align: left;
 }
 
-/*Boutton découvrir plus*/
-.buttonmore {
-    display: inline-block;
-    box-sizing: border-box;
-    width: auto;
-    height: auto;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    border-top-right-radius: 100px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-color: rgba(109, 70, 187, 1);
-    border-width: 2px;
-    border-style: solid;
-    text-decoration: none;
-    cursor: pointer;
-    margin-bottom: 5rem;
-}
-.buttonmore .button-row {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    justify-content: stretch;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 5px 10px;
-    margin: 0;
-}
-.buttonmore .part-icon {
-    display: block;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-.buttonmore .part-icon .image {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
-    margin: 0px -16px 0px 0px;
-  }
-.buttonmore .part-icon .image img {
-    width: 56px;
-    height: 30px;
-    transform: scale(1.55);
-    opacity: 1;
-    margin: auto;
-}
-.buttonmore .part-text {
-    display: block;
-    box-sizing: border-box;
-}
-.buttonmore .part-text .label {
-    display: block;
-    box-sizing: border-box;
-    font-size: 1.3rem;
-    line-height: 100%;
-    text-align: center;
-    color: rgba(109, 70, 187, 1);
-    letter-spacing: 0.20em;
-    padding: 0;
-    margin: 0;
-    font-family: var(--font-button);
-}
-
-/*Timeline*/
-.friselogodatediv{
-    display: flex;
-    align-items: center;
-    max-height: 40px;
-    margin-left: var(--espmarge);
-    margin-top: var(--espmarge);
-}
-.partiefrise__date{
-    font-size: 1.8rem;
-    margin: 0;
-    padding: 0;
-    padding-left: 1rem;
-}
-.partiefrise__txt{
-    padding: 0;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 40px;
-}
-.partiefrise__decorfrise {
-    display: block;
-    height: 100px;
-    width: 20px;
-    margin: auto;
-    background-color: var(--rose);
-    clip-path: ellipse(42% 100% at 49.84% 0%);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-  }
-.lastdate{
-    padding-bottom: var(--esptxt);
-    margin-bottom: 0;
-}
-
 /*Galerie de personnages*/
 .portrait__img{
     float: left;
@@ -148,4 +43,39 @@
     padding:0;
     margin-top: 0;
     padding-top: 10px;
+}
+
+/*Timeline*/
+.friselogodatediv{
+    display: flex;
+    align-items: center;
+    max-height: 40px;
+    margin-left: var(--espmarge);
+    margin-top: var(--espmarge);
+}
+.partiefrise__date{
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+}
+.partiefrise__txt{
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 40px;
+}
+.partiefrise__decorfrise {
+    display: block;
+    height: 100px;
+    width: 20px;
+    margin: auto;
+    background-color: var(--rose);
+    clip-path: ellipse(42% 100% at 49.84% 0%);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+.lastdate{
+    padding-bottom: var(--esptxt);
+    margin-bottom: 0;
 }

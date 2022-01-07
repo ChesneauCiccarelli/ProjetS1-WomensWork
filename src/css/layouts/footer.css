@@ -1,66 +1,69 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(109, 70, 187, 0.8);
-    padding-top: 20px;
-    clip-path: ellipse(120% 100% at 50% 100%);
+    display:flex;
+    flex-direction:column;
+    background-color:rgba(109,70,187,0.8);
+    padding-top:20px;
+    clip-path:ellipse(120% 100% at 50% 100%);
 }
-
+    
 .footer__contact {
-    text-decoration: none;
-    border: 3px solid var(--blanc);
-    margin: auto;
-    display: flex;
-    gap: 7px;
-    border-radius: 10px;
-    z-index: 1;
-    margin-top: 15px;
+    text-decoration:none;
+    border:3px solid var(--blanc);
+    margin:auto;
+    display:flex;
+    gap:7px;
+    border-radius:10px;
+    z-index:1;
+    margin-top:15px;
 }
-
+    
 .footer__contact--icone {
-    padding-left: 10px;
+    padding-left:10px;
 }
-
+    
 .footertop {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
 }
+    
 .footertxt {
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
+    display:flex;
+    flex-direction:column;
+    z-index:1;
 }
+    
 .footer__contact--nom {
-    margin: 0;
-    padding-bottom: 0;
-    font-family: var(--font-button);
-    color: var(--blanc);
-    font-size: 1.8em;
-    margin-bottom: -9px;
+    margin:0;
+    padding-bottom:0;
+    font-family:var(--font-button);
+    color:var(--blanc);
+    font-size:1.8em;
+    margin-bottom:-9px;
 }
+    
 .footer__contact--mail {
-    margin: 0;
-    padding-bottom: 0;
-    font-family: var(--font-button);
-    color: var(--blanc);
-    font-size: 0.9rem ;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    margin:0;
+    padding-bottom:0;
+    font-family:var(--font-button);
+    color:var(--blanc);
+    font-size:.9rem;
+    padding-right:10px;
+    padding-bottom:10px;
 }
-
+    
 .footerbot {
-    padding-top: 100px;
-    display: flex;
-    max-height: 100px;
-    text-align: left;
-    margin: auto;  
+    padding-top:100px;
+    display:flex;
+    max-height:100px;
+    text-align:left;
+    margin:auto;
 }
-
+    
 .footerbot__txt {
-    text-align: center;
-    padding-bottom: 0px;
-    font-weight: 400;
-    color: var(--blanc);
-    line-height: 1.1;
+    text-align:center;
+    padding-bottom:0;
+    font-weight:400;
+    color:var(--blanc);
+    line-height:1.1;
 }

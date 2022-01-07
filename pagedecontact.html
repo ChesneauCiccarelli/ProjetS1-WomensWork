@@ -109,7 +109,7 @@
                 <input type="text" name="Prénom" id="Prénom">
             </div>
             <div>
-                <label for="Email">Email</label>
+                <label for="Email">Couriel</label>
                 <input type="text" name="Email" id="Email">
             </div>
             <div>
@@ -121,10 +121,18 @@
         </form>
 
         <div class="bouttonMMI">
-            <p>Découvrez le site du BUT MMI de Montbéliard.</p>
-            <a href="http://mmimontbeliard.com/">
-                <img src="public/icones/MMIButton.svg" alt="Logo du département MMI de Montbéliard">
-                <img class="morebutton__icon" src="public/icones/FlecheDroite.svg" alt="Icone flèche de droite">
+            <p class="MMIbuttonuppertext">Découvrez le site du BUT MMI de Montbéliard.</p>
+            <a href="http://mmimontbeliard.com/" class="buttonmore buttonmoremmi">
+                <div class="button-row">
+                    <div class="part-icon">
+                        <div class="image">
+                            <img src="public/icones/FlecheDroite.svg">
+                        </div>
+                    </div>
+                    <div class="part-text">
+                        <img src="public/icones/MMIButton.svg" alt="Logo du site MMI">
+                    </div>
+                </div>
             </a>
         </div>
     </main>
@@ -140,7 +148,7 @@
             </a>
         </nav>
         
-        <p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
+        <p class="footerbot__txt" >Projet réalisé dans le cadre d’un exercice pédagogique au <strong>département MMi de Montbéliard</strong></p>
     </footer>
 </body>
 </html>

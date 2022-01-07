@@ -114,3 +114,88 @@ p.autresite__nom{
     width: 21px;
     background-color: var(--rose);
 }
+
+/*Boutton découvrir plus dans galerie / Boutton site Montbéliard*/
+.buttonmore {
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-color: rgba(109, 70, 187, 1);
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+.buttonmore .button-row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: stretch;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 0;
+}
+.buttonmore .part-icon {
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+.buttonmore .part-icon .image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 0px;
+    margin: 0px -16px 0px 0px;
+  }
+.buttonmore .part-icon .image img {
+    width: 56px;
+    height: 30px;
+    transform: scale(1.55);
+    opacity: 1;
+    margin: auto;
+}
+.buttonmore .part-text {
+    display: block;
+    box-sizing: border-box;
+}
+.buttonmore .part-text .label {
+    display: block;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(109, 70, 187, 1);
+    letter-spacing: 0.20em;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-button);
+}
+
+/*Boutton site MMI dans la page de contact*/
+.MMIbuttonuppertext{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.bouttonMMI{
+    text-align: center;
+}
+.buttonmoremmi{
+    margin-bottom: 40px;
+}
