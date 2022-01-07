@@ -49,11 +49,9 @@
     z-index:2;
     transform:translateX(100vw);
 }
-    
 .menuopen .menu {
     transform:translateX(0);
 }
-    
 .menuopen {
     overflow:hidden;
 }
@@ -63,7 +61,6 @@
     transform:translateX(0);
     transition:all .7s cubic-bezier(0,0.4,0.16,1);
 }
-    
 .hidemenu .bye {
     transform:translateX(-100vw);
 }
