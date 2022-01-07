@@ -73,11 +73,13 @@
 				<div class="navarticle__nav button404"> <a class="navarticle__boutontxt" href="/accueilEN.html">Home Page</a> </div>
 				<h2 class="sous-titre soustitre404 modiftitre404 parlonsfem" >or browse the internet :</h2>
 			</section>
-			<form action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q">
-				<label for="q">What are you looking for ?</label>
-				<input type="text" id="q" name="q" x-model="q">
-				<button class="bouttonrecherche404" type="submit">Browse</button>
-			</form>
+            <section>
+                <form action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q">
+                    <label for="q">What are you looking for ?</label>
+                    <input type="text" id="q" name="q" x-model="q">
+                    <button class="bouttonrecherche404" type="submit">Browse</button>
+                </form>
+            </section>
 		</main>
 	</body>
 </html>
