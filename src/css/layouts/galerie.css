@@ -12,7 +12,9 @@
     float:left;
     max-width:50%;
 }
-    
+.figuredufeminisme__txt{
+    display: block;
+}
 .portrait__nom {
     font-family:var(--font-txt);
     font-size:var(--soustitre);
@@ -26,7 +28,6 @@
     -webkit-text-fill-color:transparent;
     background-clip:text;
 }
-    
 .portrait__date {
     font-size:1.3rem;
     text-align:center;
