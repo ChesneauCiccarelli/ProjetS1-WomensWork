@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Women's Work - Gallery</title>
+		<link rel="stylesheet" href="src/css/style.css">
+		<script src="//unpkg.com/alpinejs" defer></script>
+		<script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="noscroll bye">
+				<div class="headertop">
+					<div class="header__logo">
+						<a href="/homepage.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Women's Work site logo">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<a class="header__titresite--link" href="/homepage.html">
+							<p class="header__titresite--txt" > Women's Work</p>
+						</a>
+					</div>
+					<button class="header__menubutton" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu" src="public/icones/Menu.svg" alt="Menu icon">
+					</button>
+				</div>
+			</div>
+			<nav class="menu">
+				<div class="headertop headermenu">
+					<div class="header__logo">
+						<a href="/homepage.html">
+							<img class="header__logo--WW" src="public/icones/LogoSite.svg" alt="Women's Work logo site">
+						</a>
+					</div>
+					<div class="header__titresite">
+						<p class="header__titresite--txt txtmenutitre"> Menu</p>
+					</div>
+					<button class="header__button" onclick="document.body.classList.toggle('menuopen'); document.body.classList.toggle('hidemenu')">
+						<img class="header__button--menu croix" src="public/icones/Croix.svg" alt="Close icon">
+					</button>
+				</div>
+				<div class="menu__langue">
+					<a class="menu__langue--fr" href="index.html">
+						<img class="langue__bouton1" src="public/icones/LangFR.svg" alt="French language logo">
+					</a>
+					<a class="menu__langue--en" href="homepage.html">
+						<img class="langue__bouton2" src="public/icones/LangEN.svg" alt="English language logo">
+					</a>
+				</div>
+				<ul class="menu__liste">
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="firstarticle.html">Feminism,ideology and work</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="secondarticle.html">Gendered work and wage inequality</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="thirdarticle.html">Women of power, a global job</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="gallery.html">Gallery</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="glossary.html">Glossary</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="aboutus.html">About us</a> </li>
+					<li class="menu__liste--item"> <a class="menu__liste--link" href="otherprojects.html">Other projects</a> </li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="intropage">
+				<div class="duotone">
+					<img class="intropage__image duotone" src="public/bgimages/Column.webp" alt="Pictures of columns">
+				</div>
+				<h1 class="intropage__titre">Gallery</h1>
+				<p class="introduction txtintro" >Here you can discover other figures who have revolutionized the world and feminist ideology. Feel free to learn more about these stories that have changed the way people think. But first, some important dates on the ideology.</p>
+			</section>
+			<section class="frisechronologique">
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">1791</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Olympe de Gouges publishes the "Declaration of the Rights of Women and the Citizen".</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">29 April 1945</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Women voted for the first time in France.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">27 October 1946</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Equality between men and women is written into the Preamble of the Constitution.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">November 1947</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">First woman minister in France, Germaine Poinso-Chapuis.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">13 July 1965</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Women can exercise a professional activity without their husband's consent.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">28 December 1967</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Authorisation of contraception thanks to the Neuwirth law.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">4 June 1970</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">The law on joint parental authority modifies the civil code and replaces paternal power with joint parental authority.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">22 December 1972</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">A law establishes the principle of equal pay for men and women.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">July 1974</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Creation of the Secretary of State for the Status of Women.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">17 January 1975</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Promulgation of the law authorising the voluntary interruption of pregnancy (IVG), the Veil law.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">31 December 1979</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Law on abortion making definitive the provisions of the 1975 law and removing in particular certain obstacles to the performance of abortion, concerning the terms of the doctor's agreement and reception in hospital services.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">23 December 1980</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Rape is recognised as a crime.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">8 March 1982</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">First National Women's Day.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">13 July 1983</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">The Roudy law establishes professional equality between women and men.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">4 July 2001</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Act No. 2001-588 increases the legal time limit for recourse to abortion from 10 to 12 weeks.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">24 March 2005</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt">Presentation to the Council of Ministers of a bill on equal pay for women and men.</p>
+					<div class="partiefrise__decorfrise"></div>
+				</div>
+				<div class="partiefrise">
+					<div class="friselogodatediv">
+						<img class="partiefrise__icone" src="public/icones/LogoFrise.svg" alt="Icon of the timeline">
+						<h2 class="partiefrise__date">25 March 2013</h2>
+					</div>
+					<div class="frisetxtdiv"></div>
+					<p class="partiefrise__txt lastdate">A decree establishes 100% reimbursement of abortion as well as free medical contraceptives for minors aged over 15.</p>
+				</div>
+			</section>
+			<section class="galeriefeminisme">
+				<h2 class="sous-titre">Figures of feminism</h2>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/OlympeDeGouges.webp" alt="Picture of Olympe de Gouges">
+						<h3 class="portrait__nom">Olympe de Gouges</h3>
+						<p class="portrait__date">(1748 - 1793)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">French woman of letters, who became a politician.</li>
+							<li class="ligalerie">Considered one of the pioneers of feminism thanks to her publication in 1791 of the Declaration of the Rights of Women and the Citizen.</li>
+							<li class="ligalerie">Died on the guillotine in Paris on 3 November 1793.</li>
+						</ul>
+					</div>
+					<a href="https://en.wikipedia.org/wiki/Olympe_de_Gouges" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/MarieCurie.webp" alt="Picture of Marie Curie">
+						<h3 class="portrait__nom">Marie Curie</h3>
+						<p class="portrait__date portrait__date--variant">(1867 - 1934)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Polish physicist and chemist.</li>
+							<li class="ligalerie">Won the Nobel Prize in Physics, along with Pierre Curie and Henri Becquerel for their research on radiation in 1903.</li>
+							<li class="ligalerie">First woman to win the Nobel Prize and the only woman to win two.</li>
+						</ul>
+					</div>
+					<a href="https://en.wikipedia.org/wiki/Marie_Curie" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/RosaParks.webp" alt="Picture of Rosa Parks">
+						<h3 class="portrait__nom">Rosa Parks</h3>
+						<p class="portrait__date portrait__date--variant">(1913 - 2005)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">African-American woman / Emblematic figure in the fight against racial segregation in the United States.</li>
+							<li class="ligalerie">Refused to give up her seat to a white passenger on the bus.</li>
+							<li class="ligalerie">On 13 November 1956, the US Supreme Court struck down segregationist bus laws, declaring them unconstitutional.</li>
+						</ul>
+					</div>
+					<a href="https://en.wikipedia.org/wiki/Rosa_Parks" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/SimoneVeil.webp" alt="Picture of Simone Veil">
+						<h3 class="portrait__nom">Simone Veil</h3>
+						<p class="portrait__date portrait__date--variant">(1927 - 2017)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Deported to Auschwitz at the age of 16 during the Holocaust, where she lost her entire family.</li>
+							<li class="ligalerie">Appointed Minister of Health by President Valéry Giscard d'Estaing.</li>
+							<li class="ligalerie">Passed the law decriminalizing a woman's recourse to voluntary termination of pregnancy (abortion).</li>
+						</ul>
+					</div>
+					<a href="https://en.wikipedia.org/wiki/Simone_Veil" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/SimoneDeBeauvoir.webp" alt="Picture of Simone De Beauvoir">
+						<h3 class="portrait__nom">Simone De Beauvoir</h3>
+						<p class="portrait__date">(1908 - 1986)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">French philosopher, novelist, memoirist and essayist.</li>
+							<li class="ligalerie">Important feminist theorist: participated in the women's liberation movement in the 1970s.</li>
+							<li class="ligalerie">« One is not born a woman: one becomes one. »</li>
+						</ul>
+					</div>
+					<a href="https://en.wikipedia.org/wiki/Simone_de_Beauvoir" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/RebeccaAmsellem.webp" alt="Picture of Rebecca Amsellem">
+						<h3 class="portrait__nom">Rebecca Amsellem</h3>
+						<p class="portrait__date">(1988)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">French-Canadian entrepreneur, economist and feminist activist.</li>
+							<li class="ligalerie">Creator of the feminist newsletter "Les Glorieuses"</li>
+							<li class="ligalerie">Launched the #5november16h47 movement</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Rebecca_Amsellem" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/MadeleineGuilbert.webp" alt="Picture of Madeleine Guilbert">
+						<h3 class="portrait__nom">Madeleine Guilbert</h3>
+						<p class="portrait__date">(1910 - 2006)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">French labour sociologist, feminist activist and trade unionist.</li>
+							<li class="ligalerie">Participated in the Resistance during the Second World War.</li>
+							<li class="ligalerie">Published three groundbreaking articles in La Revue Française du Travail on women's working conditions.</li>
+						</ul>
+					</div>
+					<a href="https://fr.wikipedia.org/wiki/Madeleine_Guilbert" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/OprahWinfrey.webp" alt="Picture of Oprah Winfrey">
+						<h3 class="portrait__nom">Oprah Winfrey</h3>
+						<p class="portrait__date">(1957)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">American television host and producer.</li>
+							<li class="ligalerie">Helps girls assert themselves and claim who they are.</li>
+							<li class="ligalerie">Launches the Oprah Winfrey Leadership Academy for Girls in South Africa. Her organisation educates disadvantaged girls aged 8 to 12.</li>
+						</ul>
+					</div>
+					<a href="https://en.wikipedia.org/wiki/Oprah_Winfrey" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/TaranaBurke.webp" alt="Picture of Tarana Burke">
+						<h3 class="portrait__nom">Tarana Burke</h3>
+						<p class="portrait__date">(1973)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<ul>
+							<li class="ligalerie">Director of Programs at Girls for Gender Equity.</li>
+							<li class="ligalerie">Started the #MeToo movement.</li>
+						</ul>
+					</div>
+					<a href="https://en.wikipedia.org/wiki/Tarana_Burke" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="figuredufeminisme">
+					<div class="portrait">
+						<img class="portrait__img" src="public/galerie/DenisMuckwege.webp" alt="Picture of Denis Mukwege">
+						<h3 class="portrait__nom">Denis Mukwegey</h3>
+						<p class="portrait__date">(1955)</p>
+					</div>
+					<div class="figuredufeminisme__txt">
+						<p class="galerietxtspecial">You don't have to be a woman to be a feminist.</p>
+						<ul>
+							<li class="ligalerie">Founder of the Panzi hospital. He has helped more than 40,000 women victims of extreme violence to escape from violence through medical care, education, social integration, legal support and other services.</li>
+							<li class="ligalerie">Received the Nobel Peace Prize for helping thousands of women victims of rape to rebuild their lives physically and emotionally.</li>
+						</ul>
+					</div>
+					<a href="https://en.wikipedia.org/wiki/Denis_Mukwege" class="buttonmore">
+						<div class="button-row">
+							<div class="part-icon">
+								<div class="image">
+									<img src="public/icones/FlecheDroite.svg" alt="Right arrow icon">
+								</div>
+							</div>
+							<div class="part-text">
+								<p class="label">Learn more</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+		</main>
+			<footer class="footer accfooter">
+				<nav class="footertop">
+					<a class="footer__contact" href="aboutus.html">
+						<img class="footer__contact--icone" src="public/icones/Contact.svg" alt="Icône de contact">
+						<div class="footertxt">
+							<p class="footer__contact--nom" >Lilian Chesneau</p>
+							<p class="footer__contact--mail" > <em>lilian.chesneau@edu.univ-fcomte.fr</em></p>
+						</div>
+					</a>
+				</nav>
+				<p class="footerbot__txt" >Project carried out as part of an educational exercise at the <strong>MMi department in Montbéliard</strong></p>
+			</footer>
+		</body>
+	</html>
