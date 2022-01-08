@@ -15,7 +15,7 @@ body {
 h1 {
     font-size:var(--titrepage);
     background-clip:padding-box;
-    background:-webkit-linear-gradient(360deg,rgba(40,53,219,1),rgba(249,149,237,1));
+    background:-webkit-linear-gradient(360deg,rgba(40,53,219,1)20%,rgba(249,149,237,1)75%);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     text-align:center;
