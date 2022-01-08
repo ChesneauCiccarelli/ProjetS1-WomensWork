@@ -58,7 +58,7 @@
 .border-gradient {
     border:10px solid;
     border-image-slice:1;
-    border-width:2px;
+    border-width:1.5px;
     padding:2%;
 }
 .border-gradient-purple {
