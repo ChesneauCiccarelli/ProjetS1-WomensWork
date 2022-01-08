@@ -74,7 +74,7 @@
 			<section>
 				<form action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q">
 					<label for="q">What are you looking for ?</label>
-					<input type="text" id="q" name="q" x-model="q">
+					<input type="text" id="q" autocomplete="off" name="q" x-model="q">
 					<button class="bouttonrecherche404" type="submit">Browse</button>
 				</form>
 			</section>
