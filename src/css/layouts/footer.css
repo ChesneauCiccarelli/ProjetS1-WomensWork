@@ -12,7 +12,6 @@
     border:3px solid var(--blanc);
     margin:auto;
     display:flex;
-    gap:7px;
     border-radius:10px;
     z-index:1;
     margin-top:15px;
