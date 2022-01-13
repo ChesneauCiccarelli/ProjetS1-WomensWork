@@ -110,4 +110,6 @@ figcaption {
 .videocontainer__frame{
     text-decoration: none;
     margin-bottom: var(--esptxt);
+    width: 100%;
+    height: 250px;
 }
