@@ -107,3 +107,7 @@ figcaption {
     margin-bottom:20px;
     max-width:100%;
 }
+.videocontainer__frame{
+    text-decoration: none;
+    margin-bottom: var(--esptxt);
+}
