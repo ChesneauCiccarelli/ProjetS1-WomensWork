@@ -90,17 +90,14 @@ h2.boutonarticle__texte {
 .voirplus{
     padding-bottom: 0;
     text-align: center;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 1px solid;
+    border-color: var(--violet);
     background:-webkit-linear-gradient(360deg,rgba(40,53,219,1)40%,rgba(249,149,237,1)60%);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     background-clip:text;
-}
-.border-gradient__modif{
-    border-bottom:10px solid;
-    border-image-slice:1;
-    border-width:1.5px;
-    width: fit-content;
-    margin: auto;
     margin-bottom: 10px;
 }
 .parlonsfem {
